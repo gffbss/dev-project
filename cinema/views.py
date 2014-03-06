@@ -6,6 +6,7 @@ from django.contrib.auth import authenticate, login
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.models import User
 from django.core.cache import cache
+from django.http import HttpResponse
 import time
 
 
@@ -35,6 +36,15 @@ def get_the_time(request):
     the_time = local_time.tm_hour,
     data = {'the_time':the_time}
     return render(request, "time.html", data)
+
+
+# Testing ajax
+def ajaxiness(request):
+    return HttpResponse()
+
+def more_information(request):
+    data = {"info": "baylee is cool"}
+    return render(request, "choices.html", data)
 
 
 # This is broken... well i dont even have a url for it here, but its broken on the other project

@@ -20,6 +20,9 @@ urlpatterns = patterns('',
     # The Django Registration library login
     url(r'^accounts/', include('registration.backends.default.urls')),
 
+    # Ajax test urls
+    url(r'^ajaxiness/$', 'cinema.views.ajaxiness', name='ajaxiness'),
+    url(r'^more_information/$', 'cinema.views.more_information', name='more_information'),
 
 
 

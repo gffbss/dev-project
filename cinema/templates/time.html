@@ -3,16 +3,15 @@
 {# Helps personalize the greeting for our user#}
 
 {% block content %}
-
     {% for time in the_time %}
         {% if time >= 0 and time < 12 %}
-            <h3>Good Morning {{ user.username  }}</h3>
+            <h3>Good Morning {{ user.first_name  }}</h3>
         {% endif %}
         {% if time >= 12 and time < 17 %}
-            <h3>Good Afternoon {{ user.username  }}</h3>
+            <h3>Good Afternoon {{ user.first_name  }}</h3>
         {% endif %}
         {% if time >= 17  %}
-            <h3>Good Evening {{ user.username  }}</h3>
+            <h3>Good Evening {{ user.first_name  }}</h3>
         {% endif %}
     {% endfor %}
 {% endblock %}
