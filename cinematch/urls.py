@@ -21,8 +21,7 @@ urlpatterns = patterns('',
     url(r'^accounts/', include('registration.backends.default.urls')),
 
     # Ajax test urls
-    url(r'^ajaxiness/$', 'cinema.views.ajaxiness', name='ajaxiness'),
-    url(r'^more_information/$', 'cinema.views.more_information', name='more_information'),
+    url(r'^choices/$', 'cinema.views.choice_change_ajax', name='choice_change_ajax'),
 
 
 

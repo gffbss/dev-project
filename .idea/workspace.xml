@@ -29,7 +29,7 @@
       <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cinematch/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="53" selection-start="912" selection-end="912" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
+            <state line="24" column="0" selection-start="875" selection-end="875" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
               <folding />
             </state>
           </provider>
@@ -47,7 +47,7 @@
       <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cinema/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="24" selection-start="1220" selection-end="1220" vertical-scroll-proportion="0.39544514" vertical-offset="439" max-vertical-offset="1020">
+            <state line="41" column="4" selection-start="1176" selection-end="1194" vertical-scroll-proportion="0.2857143" vertical-offset="477" max-vertical-offset="960">
               <folding>
                 <element signature="e#26#36#0" expanded="true" />
               </folding>
@@ -58,7 +58,7 @@
       <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cinema/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="578" selection-end="578" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+            <state line="17" column="55" selection-start="535" selection-end="535" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
               <folding />
             </state>
           </provider>
@@ -85,7 +85,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cinema/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="0" selection-start="2146" selection-end="2146" vertical-scroll-proportion="-13.125" vertical-offset="600" max-vertical-offset="1230">
+            <state line="62" column="39" selection-start="2229" selection-end="2229" vertical-scroll-proportion="-9.666667" vertical-offset="698" max-vertical-offset="1470">
               <folding />
             </state>
           </provider>
@@ -94,7 +94,7 @@
       <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cinema/static/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="20" selection-start="484" selection-end="484" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+            <state line="3" column="0" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
               <folding>
                 <element signature="e#0#45#0" expanded="false" />
               </folding>
@@ -120,14 +120,14 @@
         <option value="/usr/local/lib/python2.7/site-packages/registration/forms.py" />
         <option value="$PROJECT_DIR$/cinema/scrape_test.py" />
         <option value="$PROJECT_DIR$/cinema/forms.py" />
-        <option value="$PROJECT_DIR$/cinema/models.py" />
         <option value="$PROJECT_DIR$/cinema/templates/time.html" />
         <option value="$PROJECT_DIR$/cinema/templates/base.html" />
-        <option value="$PROJECT_DIR$/cinematch/urls.py" />
         <option value="$PROJECT_DIR$/cinema/templates/choices.html" />
+        <option value="$PROJECT_DIR$/cinema/models.py" />
+        <option value="$PROJECT_DIR$/cinema/views.py" />
+        <option value="$PROJECT_DIR$/cinematch/urls.py" />
         <option value="$PROJECT_DIR$/cinema/static/js/main.js" />
         <option value="$PROJECT_DIR$/cinema/templates/index.html" />
-        <option value="$PROJECT_DIR$/cinema/views.py" />
       </list>
     </option>
   </component>
@@ -196,78 +196,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="cinematch" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cinematch" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cinematch" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cinema" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cinematch" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cinematch" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cinema" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cinematch" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cinematch" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cinema" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cinematch" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cinematch" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cinema" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -801,23 +729,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cinematch/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="53" selection-start="912" selection-end="912" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cinema/templates/match.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="19" selection-start="27" selection-end="47" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="195">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cinema/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="578" selection-end="578" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
           <folding />
         </state>
       </provider>
@@ -829,25 +743,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cinema/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/cinematch/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="0" selection-start="2146" selection-end="2146" vertical-scroll-proportion="-13.125" vertical-offset="600" max-vertical-offset="1230">
+        <state line="24" column="0" selection-start="875" selection-end="875" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cinema/static/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="20" selection-start="484" selection-end="484" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+        <state line="3" column="0" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
           <folding>
             <element signature="e#0#45#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cinema/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="39" selection-start="2229" selection-end="2229" vertical-scroll-proportion="-9.666667" vertical-offset="698" max-vertical-offset="1470">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cinema/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="55" selection-start="535" selection-end="535" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cinema/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="24" selection-start="1220" selection-end="1220" vertical-scroll-proportion="0.39544514" vertical-offset="439" max-vertical-offset="1020">
+        <state line="41" column="4" selection-start="1176" selection-end="1194" vertical-scroll-proportion="0.2857143" vertical-offset="477" max-vertical-offset="960">
           <folding>
             <element signature="e#26#36#0" expanded="true" />
           </folding>

@@ -39,12 +39,8 @@ def get_the_time(request):
 
 
 # Testing ajax
-def ajaxiness(request):
+def choice_change_ajax(request):
     return HttpResponse()
-
-def more_information(request):
-    data = {"info": "baylee is cool"}
-    return render(request, "choices.html", data)
 
 
 # This is broken... well i dont even have a url for it here, but its broken on the other project

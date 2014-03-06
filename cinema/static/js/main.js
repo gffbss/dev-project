@@ -3,28 +3,31 @@
  */
 
 $(document).ready(function(){
+   $('#first-choice').hide()
    $('#second-choice').hide()
+
 });
 
 $(function() {
-   $('#hello').on('click', function(){
+   $('#rainy').on('click', function(){
        $.ajax({
-           url: "/ajaxiness",
+           url: "/choices",
            success: function(result){
-               $('#hello').append(result);
+//               $('#hello').append(result);
                $('#first-home-display').hide();
                $('#second-home-display').hide();
-               $('#second-choice').show()
+               $('#first-choice').show()
            }
        });
    });
 
-    $('#failed-tests').on('click', function(){
+    $('#laughs').on('click', function(){
        $.ajax({
-           url: "/more_information",
+           url: "/choices",
            success: function(result){
-               $('body').append(result);
-
+               $('#first-home-display').hide();
+               $('#second-home-display').hide();
+               $('#second-choice').show()
            }
        });
     });
