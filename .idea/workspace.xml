@@ -35,7 +35,7 @@
       <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cinematch/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="75" selection-start="452" selection-end="464" vertical-scroll-proportion="0.0" vertical-offset="29" max-vertical-offset="540">
+            <state line="6" column="26" selection-start="186" selection-end="186" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
               <folding />
             </state>
           </provider>
@@ -44,7 +44,7 @@
       <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cinema/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="4" selection-start="788" selection-end="788" vertical-scroll-proportion="0.0" vertical-offset="244" max-vertical-offset="825">
+            <state line="39" column="96" selection-start="1216" selection-end="1216" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870">
               <folding>
                 <element signature="e#26#36#0" expanded="true" />
               </folding>
@@ -61,19 +61,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="match.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="match.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cinema/templates/match.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="14" selection-start="85" selection-end="85" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="150">
+            <state line="7" column="14" selection-start="132" selection-end="132" vertical-scroll-proportion="0.22245763" vertical-offset="0" max-vertical-offset="472">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cinema/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="10" selection-start="722" selection-end="722" vertical-scroll-proportion="0.7627119" vertical-offset="0" max-vertical-offset="960">
+            <state line="41" column="6" selection-start="1231" selection-end="1231" vertical-scroll-proportion="-11.875" vertical-offset="330" max-vertical-offset="930">
               <folding />
             </state>
           </provider>
@@ -82,7 +82,7 @@
       <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cinema/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="45" selection-start="657" selection-end="657" vertical-scroll-proportion="-6.875" vertical-offset="60" max-vertical-offset="720">
+            <state line="12" column="0" selection-start="550" selection-end="550" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="720">
               <folding />
             </state>
           </provider>
@@ -113,11 +113,11 @@
         <option value="$PROJECT_DIR$/cinema/templates/registration/login.html" />
         <option value="$PROJECT_DIR$/cinema/templates/base.html" />
         <option value="$PROJECT_DIR$/cinema/static/css/main.css" />
-        <option value="$PROJECT_DIR$/cinema/templates/match.html" />
         <option value="$PROJECT_DIR$/cinema/models.py" />
         <option value="$PROJECT_DIR$/cinema/views.py" />
         <option value="$PROJECT_DIR$/cinematch/urls.py" />
         <option value="$PROJECT_DIR$/cinema/templates/index.html" />
+        <option value="$PROJECT_DIR$/cinema/templates/match.html" />
       </list>
     </option>
   </component>
@@ -634,39 +634,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cinema/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="45" selection-start="657" selection-end="657" vertical-scroll-proportion="-6.875" vertical-offset="60" max-vertical-offset="720">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cinematch/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="75" selection-start="452" selection-end="464" vertical-scroll-proportion="0.0" vertical-offset="29" max-vertical-offset="540">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cinema/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="4" selection-start="788" selection-end="788" vertical-scroll-proportion="0.0" vertical-offset="244" max-vertical-offset="825">
+        <state line="39" column="96" selection-start="1216" selection-end="1216" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870">
           <folding>
             <element signature="e#26#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cinema/templates/match.html">
+    <entry file="file://$PROJECT_DIR$/cinematch/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="14" selection-start="85" selection-end="85" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="150">
+        <state line="6" column="26" selection-start="186" selection-end="186" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cinema/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="550" selection-end="550" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="720">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cinema/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="10" selection-start="722" selection-end="722" vertical-scroll-proportion="0.7627119" vertical-offset="0" max-vertical-offset="960">
+        <state line="41" column="6" selection-start="1231" selection-end="1231" vertical-scroll-proportion="-11.875" vertical-offset="330" max-vertical-offset="930">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cinema/templates/match.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="14" selection-start="132" selection-end="132" vertical-scroll-proportion="0.22245763" vertical-offset="0" max-vertical-offset="472">
           <folding />
         </state>
       </provider>

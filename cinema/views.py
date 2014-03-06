@@ -25,6 +25,7 @@ def get_movie_data(request):
         for row in reader:
             Movie.objects.create(year=row[0], length=row[1], title=row[2], genre=row[3])
 
+# Very beta version of the matched results page. Like Uber beta
 def movie_choice(request):
     return render(request, 'match.html')
 
@@ -35,6 +36,8 @@ def get_the_time(request):
     data = {'the_time':the_time}
     return render(request, "time.html", data)
 
+
+# This is broken... well i dont even have a url for it here, but its broken on the other project
 def api_test(request):
     url = "http://api.rottentomatoes.com/api/public/v1.0/movies.json?apikey=tt3r5kkzr67r2h7aw4spzp3x&q=comedy&page_limit=100&page=5"
 

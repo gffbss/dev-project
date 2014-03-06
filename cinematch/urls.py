@@ -5,10 +5,6 @@ from django.contrib import admin
 admin.autodiscover()
 
 urlpatterns = patterns('',
-    # Examples:
-    # url(r'^$', 'cinematch.views.home', name='home'),
-    # url(r'^cinematch/', include('cinematch.foo.urls')),
-
     # Main page urls
     url(r'^$', 'cinema.views.home', name='index'),
     url(r'^cinema/match/$', 'cinema.views.movie_choice', name='movie_choice'),
