@@ -1,0 +1,58 @@
+
+{% extends "base.html" %}
+
+{% block content %}
+    <div>
+
+    {% if user.is_authenticated %}
+        <h1>Welcome {{ user.first_name  }}</h1>
+	    <h3>Let Us know What You're Thinking</h3>
+
+        {# First row #}
+    <div class="row">
+        <div class="col-sm-4">
+            Rainy Day
+             <a href="{% url 'movie_choice' %}"><img class="img-responsive"src="http://placehold.it/250x250"></a>
+        </div>
+        <div class="col-sm-4">
+            Looking For Laughs
+            <img class="img-responsive"src="http://placehold.it/250x250">
+        </div>
+        <div class="col-sm-4">
+            Date Night
+            <img class="img-responsive"src="http://placehold.it/250x250">
+        </div>
+    </div>
+{# Second Row #}
+    <div class="row">
+        <div class="col-sm-4">
+            Sunny Day
+            <img class="img-responsive"src="http://placehold.it/250x250">
+        </div>
+        <div class="col-sm-4">
+            Looking For Love
+            <img class="img-responsive"src="http://placehold.it/250x250">
+        </div>
+        <div class="col-sm-4">
+            Oscar Special
+            <img class="img-responsive"src="http://placehold.it/250x250">
+        </div>
+    </div>
+
+
+
+
+
+	{% else %}
+        <h1>Welcome to Cinematch. </h1>
+        <h2>Where we help you find the movie you want to watch, right now.</h2>
+        <h4>Please login or signup</h4>
+	    <button><a href="{% url 'auth_login' %}">Log in</a></button>
+	{% endif %}
+
+{# Try and get the time #}
+
+    </div>
+
+
+{% endblock %}
