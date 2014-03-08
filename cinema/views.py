@@ -1,4 +1,3 @@
-# Create your views here.
 import csv
 from django.shortcuts import render
 import requests
@@ -57,3 +56,5 @@ def api_test(request):
     data = {"movie_data": movie_data}
 
     return render(request, 'api-test.html', data)
+
+

@@ -1,7 +1,9 @@
-__author__ = 'geoffreyboss'
 
-# from registration.forms import RegistrationForm
-#
-# class UniqueForm(RegistrationForm):
-#     class Meta:
-#         model = User
+__author__ = 'geoffreyboss'
+from django import forms
+from registration.forms import RegistrationForm
+
+
+class UniqueForm(RegistrationForm):
+    first_name = forms.CharField(widget=forms.TextInput, label="first_name")
+    last_name = forms.CharField(widget=forms.TextInput, label="first_name")

@@ -1,4 +1,6 @@
 from django.conf.urls import patterns, include, url
+from registration.backends.default.views import RegistrationView
+from cinema.forms import UniqueForm
 
 # Uncomment the next two lines to enable the admin:
 from django.contrib import admin
@@ -10,6 +12,8 @@ urlpatterns = patterns('',
     url(r'^cinema/match/$', 'cinema.views.movie_choice', name='movie_choice'),
     url(r'^time/$', 'cinema.views.get_the_time', name='get_the_time'),
 
+    # Ajax test urls
+    url(r'^choices/$', 'cinema.views.choice_change_ajax', name='choice_change_ajax'),
 
     # Uncomment the admin/doc line below to enable admin documentation:
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
@@ -19,10 +23,8 @@ urlpatterns = patterns('',
 
     # The Django Registration library login
     url(r'^accounts/', include('registration.backends.default.urls')),
+    # url(r'^accounts/', register, {'backend':'registration.backends.default.urls', 'form_class':UniqueForm)),
 
-    # Ajax test urls
-    url(r'^choices/$', 'cinema.views.choice_change_ajax', name='choice_change_ajax'),
-
-
-
+    # This is what I think I want but it is not quite working
+    # url(r'^accounts/', RegistrationView.as_view(form_class = UniqueForm))),
 )

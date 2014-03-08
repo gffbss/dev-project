@@ -1,21 +1,19 @@
-from django.db import models
-
-# Create your models here.
-
+# from django.db import models
+# from registration.models import User
+#
+#
 # class Movie(models.Model):
 #     year = models.PositiveSmallIntegerField()
 #     length = models.PositiveSmallIntegerField()
 #     title = models.CharField(max_length=275)
-#     genre = models.CharField(max_length=275)
+#     genre = models.ForeignKey(Genre)
 #
-
-# class User(models.Model)
-#     first_name = models.CharField(max_length=255)
-#     last_name = models.CharField(max_length=255)
-#     habits = movies seen?
-#     match = models.ForeignKey(Match)
-
-# Do i need a class for the decision/rec engine? One to one with Movie and one to one with User?
-
-# class Match(models.Model):
-#     title = models.ForeignKey(Movie)
+#
+# class Genre(models.Model):
+#     genre_type = models.CharField(max_length=255)
+#
+#
+# class Rating(models.Model):
+#     movie = models.ForeignKey(Movie)
+#     user = models.ForeignKey(User)
+#     match = models.BooleanField(default=False)
