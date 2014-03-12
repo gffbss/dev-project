@@ -29,7 +29,7 @@
       <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cinematch/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="128" column="19" selection-start="4576" selection-end="4576" vertical-scroll-proportion="0.0" vertical-offset="1694" max-vertical-offset="2715">
+            <state line="128" column="19" selection-start="4576" selection-end="4576" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="2715">
               <folding />
             </state>
           </provider>
@@ -67,8 +67,10 @@
       <file leaf-file-name="models.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cinema/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="40" selection-start="774" selection-end="774" vertical-scroll-proportion="0.7560484" vertical-offset="0" max-vertical-offset="496">
-              <folding />
+            <state line="22" column="8" selection-start="738" selection-end="738" vertical-scroll-proportion="0.6653226" vertical-offset="0" max-vertical-offset="496">
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -606,7 +608,9 @@
     <entry file="file://$PROJECT_DIR$/cinema/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="47" selection-start="150" selection-end="150" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="375">
-          <folding />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -684,7 +688,9 @@
     <entry file="file://$PROJECT_DIR$/cinema/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="46" selection-start="295" selection-end="295" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="255">
-          <folding />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -893,13 +899,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cinematch/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="128" column="19" selection-start="4576" selection-end="4576" vertical-scroll-proportion="0.0" vertical-offset="1694" max-vertical-offset="2715">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cinema/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="15" selection-start="720" selection-end="720" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870">
@@ -930,10 +929,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cinematch/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="128" column="19" selection-start="4576" selection-end="4576" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="2715">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cinema/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="40" selection-start="774" selection-end="774" vertical-scroll-proportion="0.7560484" vertical-offset="0" max-vertical-offset="496">
-          <folding />
+        <state line="22" column="8" selection-start="738" selection-end="738" vertical-scroll-proportion="0.6653226" vertical-offset="0" max-vertical-offset="496">
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
