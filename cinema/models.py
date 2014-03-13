@@ -11,8 +11,7 @@ class Movie(models.Model):
     length = models.PositiveSmallIntegerField()
     title = models.CharField(max_length=275)
     genre = models.ForeignKey(Genre)
-    poster = models.ImageField(upload_to='tmp')
-    hero_picture = models.ImageField(upload_to="film_posters")
+    poster = models.ImageField(upload_to='film_posters', default='cinema/static/img/no_poster.jpg')
     trailer = models.CharField(max_length=500)
 
 class Rating(models.Model):

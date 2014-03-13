@@ -1,0 +1,10 @@
+body {
+  font-family: "Bubbler One", sans-serif; }
+  body h1, body h2, body h3, body h4 {
+    font-family: "Bubbler One", sans-serif;
+    text-align: center;
+    font-style: 18px; }
+
+#main-poster {
+  margin-left: auto;
+  margin-right: auto; }
