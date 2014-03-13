@@ -11,6 +11,8 @@ class Movie(models.Model):
     length = models.PositiveSmallIntegerField()
     title = models.CharField(max_length=275)
     genre = models.ForeignKey(Genre)
+    poster = models.ImageField(upload_to='tmp')
+    hero_picture = models.ImageField(upload_to="film_posters")
     trailer = models.CharField(max_length=500)
 
 class Rating(models.Model):
@@ -21,3 +23,4 @@ class Rating(models.Model):
 class UniqueForm(RegistrationForm):
     first_name = forms.CharField(widget=forms.TextInput, label="first_name")
     last_name = forms.CharField(widget=forms.TextInput, label="first_name")
+

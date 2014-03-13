@@ -24,12 +24,11 @@ urlpatterns = patterns('',
     # Api
     # url(r'^api/', include(v1_api.urls)),
 
+    # Angular urls
+    url(r'^app/$', 'cine_angular.views.angular', name="angular"),
 
     # Ajax test urls
     url(r'^choices/$', 'cinema.views.choice_change_ajax', name='choice_change_ajax'),
-
-    # Uncomment the admin/doc line below to enable admin documentation:
-    # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
 
     # Uncomment the next line to enable the admin:
     url(r'^admin/', include(admin.site.urls)),
@@ -40,4 +39,7 @@ urlpatterns = patterns('',
 
     # This is what I think I want but it is not quite working
     # url(r'^accounts/', RegistrationView.as_view(form_class = UniqueForm))),
+
+    # Uncomment the admin/doc line below to enable admin documentation:
+    # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
 )

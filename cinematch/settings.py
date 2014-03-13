@@ -129,6 +129,7 @@ INSTALLED_APPS = (
     'registration',
     'tastypie',
     'tastypie_swagger',
+    'cine_angular',
 
 )
 
