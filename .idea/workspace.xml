@@ -44,10 +44,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cinematch/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="32" selection-start="725" selection-end="768" vertical-scroll-proportion="0.23890063" vertical-offset="202" max-vertical-offset="675">
+            <state line="24" column="32" selection-start="725" selection-end="768" vertical-scroll-proportion="0.0" vertical-offset="202" max-vertical-offset="675">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="angular.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cine_angular/static/js/vendor/angular.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="287190">
               <folding />
             </state>
           </provider>
@@ -166,7 +175,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="84" />
+    <option name="x" value="17" />
     <option name="y" value="22" />
     <option name="width" value="1352" />
     <option name="height" value="874" />
@@ -243,6 +252,86 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dev-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dev-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cine_angular" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dev-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dev-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cine_angular" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dev-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dev-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cine_angular" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dev-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dev-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cine_angular" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -268,11 +357,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cine_angular/static/js" />
       <recent name="$PROJECT_DIR$/cinema" />
       <recent name="$PROJECT_DIR$/cinema/templates" />
       <recent name="$PROJECT_DIR$/cinema/templates/registration" />
       <recent name="$PROJECT_DIR$/cinema/static/js" />
-      <recent name="$PROJECT_DIR$/cinema/static/css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/cinema/static/resources" />
@@ -524,7 +613,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="84" y="22" width="1352" height="874" extended-state="0" />
+    <frame x="17" y="22" width="1352" height="874" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -533,7 +622,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2687023" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2687023" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -586,35 +675,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cinema/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="0" selection-start="1622" selection-end="1622" vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="1515">
-          <folding>
-            <marker date="1394590867000" expanded="true" signature="70:1526" placeholder="..." />
-            <marker date="1394590867000" expanded="true" signature="262:890" placeholder="..." />
-            <marker date="1394590867000" expanded="true" signature="293:494" placeholder="..." />
-            <marker date="1394590867000" expanded="true" signature="322:479" placeholder="..." />
-            <marker date="1394590867000" expanded="true" signature="525:680" placeholder="..." />
-            <marker date="1394590867000" expanded="true" signature="711:879" placeholder="..." />
-            <marker date="1394590867000" expanded="true" signature="745:864" placeholder="..." />
-            <marker date="1394590867000" expanded="true" signature="954:1519" placeholder="..." />
-            <marker date="1394590867000" expanded="true" signature="985:1134" placeholder="..." />
-            <marker date="1394590867000" expanded="true" signature="1165:1328" placeholder="..." />
-            <marker date="1394590867000" expanded="true" signature="1359:1508" placeholder="..." />
-            <marker date="1394590867000" expanded="true" signature="1664:2253" placeholder="..." />
-            <marker date="1394590867000" expanded="true" signature="1704:2246" placeholder="..." />
-            <marker date="1394590867000" expanded="true" signature="1735:1911" placeholder="..." />
-            <marker date="1394590867000" expanded="true" signature="1942:2074" placeholder="..." />
-            <marker date="1394590867000" expanded="true" signature="2105:2235" placeholder="..." />
-            <marker date="1394590867000" expanded="true" signature="2344:2932" placeholder="..." />
-            <marker date="1394590867000" expanded="true" signature="2384:2925" placeholder="..." />
-            <marker date="1394590867000" expanded="true" signature="2415:2585" placeholder="..." />
-            <marker date="1394590867000" expanded="true" signature="2616:2749" placeholder="..." />
-            <marker date="1394590867000" expanded="true" signature="2780:2914" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cinema/templates/time.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="14" selection-start="504" selection-end="504" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="330">
@@ -997,7 +1057,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cinematch/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="32" selection-start="725" selection-end="768" vertical-scroll-proportion="0.23890063" vertical-offset="202" max-vertical-offset="675">
+        <state line="24" column="32" selection-start="725" selection-end="768" vertical-scroll-proportion="0.0" vertical-offset="202" max-vertical-offset="675">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cine_angular/static/js/vendor/angular.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="287190">
           <folding />
         </state>
       </provider>
