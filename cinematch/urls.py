@@ -29,7 +29,7 @@ urlpatterns = patterns('',
     url(r'^api/', include(v1_api.urls)),
 
     # Angular urls
-    url(r'^app/$', 'cine_angular.views.angular', name="angular"),
+    url(r'^moods/$', 'cine_angular.views.angular', name="angular"),
 
     # Ajax test urls
     url(r'^choices/$', 'cinema.views.choice_change_ajax', name='choice_change_ajax'),

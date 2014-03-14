@@ -1,20 +1,15 @@
-<!--
+<!-- Retrive the movie information -->
 <div class="row">
     <div class="col-md-12">
-        <div class="sub-page-h1">
-            <h1>THE LORD OF THE RINGS BITCH</h1>
+    <ul ng-repeat="movie in movies | orderBy:random | limitTo: 1">
+        <h1>{{ movie.title }}</h1>
+        <img id="main-poster" class="img-rounded img-responsive" src="http://image.tmdb.org/t/p/w185/{{ movie.poster }}">
+        <h3>{{ movie.year }}</h3>
+    </ul>
+        <h1>Good Choice dingus</h1>
+        <a href="/">You hate it? Go back...</a>
 
-            <img id="main-poster" class="img-rounded img-responsive" src="/static/img/no_poster.jpg">
-            <br>
-            <h1>Good Choice dingus</h1>
-
-
-
-            <a href="/">You hate it? Go back...</a>
-
-        </div>
     </div>
-</div> -->
-<ul ng-repeat="movie in movies">
-    <li>{{ movie.title }}</li>
-</ul>
+</div>
+
+

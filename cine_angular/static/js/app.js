@@ -9,8 +9,14 @@ var cinematch = angular.module('cinematch', ['ngRoute']);
 cinematch.config(['$routeProvider', function($routeProvider){
     $routeProvider.
         when('/', {templateUrl: '/static/views/moods.html', controller: IndexCtrl}).
-        when('/rainy-moods', {templateUrl: '/static/views/rainy-moods.html', controller: RainyCtrl}).
+        when('/rainy-moods', {templateUrl: '/static/views/rainy_moods.html', controller: RainyCtrl}).
+        when('/laugh-moods', {templateUrl: '/static/views/laugh_moods.html', controller: LaughCtrl}).
+        when('/date-moods', {templateUrl: '/static/views/date_moods.html', controller: DateCtrl}).
+        when('/best-moods', {templateUrl: '/static/views/best_day_moods.html', controller: BestDayCtrl}).
+        when('/love-moods', {templateUrl: '/static/views/love_moods.html', controller: LoveCtrl}).
+        when('/sick-moods', {templateUrl: '/static/views/sick_moods.html', controller: SickCtrl}).
+
         when('/choice/', {templateUrl: '/static/views/choice.html', controller: ChoiceCtrl}).
-//        when('/add/student-project/', {templateUrl: '/static/views/add_student_project.html', controller: AddStudentProjectCtrl}).
+        when('/rainy-moods/choice/', {templateUrl: '/static/views/genre.html', controller: GenreCtrl}).
         otherwise({redirectTo: '/'});
 }]);

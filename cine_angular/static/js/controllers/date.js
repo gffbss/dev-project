@@ -1,9 +1,12 @@
 /**
+ * Created by geoffreyboss on 3/14/14.
+ */
+/**
  * Created by geoffreyboss on 3/13/14.
  */
 
 // basically a js function that we want to do stuff for us. every controller will have $scope as the initial argument
-function IndexCtrl($scope, $http) {
+function DateCtrl($scope, $http) {
     // $http would be like a library we are calling just like python
     $http.get('/api/v1/movie/?format=json').
         success(function(movies){

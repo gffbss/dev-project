@@ -10,5 +10,12 @@ function ChoiceCtrl($scope, $http) {
             // we need to be specific with our movies.objects which will give us the specific data. If
             // if was just movies it would be the entire json object and would not be iterable
             $scope.movies = movies.objects;
+
+            // This random function will return a randomly generated movie for the choice.html
+            $scope.random = function() {
+                return Math.random();
+            }
+            console.log(movies);
+
     });
 }
