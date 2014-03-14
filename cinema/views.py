@@ -12,6 +12,10 @@ import time
 def home(request):
     return render(request, "index.html")
 
+# TO BE DEPRECIATED
+def old_index(request):
+    return render(request, "old-index.html")
+
 # The decorator helps authenticate users in a DRY way
 @login_required
 def special_page(request):

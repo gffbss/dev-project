@@ -12,6 +12,7 @@ class Command(BaseCommand):
         for genre in Genre.objects.all():
             self.get_movies_for_genre(genre)
 
+    # using the api i match movies to their corresponding genre id's
     def get_movies_for_genre(self, genre):
         data = requests.get("https://api.themoviedb.org/3/genre/" + str(genre.genre_api_id) + "/movies?api_key=b5c36e93a1666d97327676b31e503755")
         data = data.json()

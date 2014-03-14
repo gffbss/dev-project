@@ -1,0 +1,50 @@
+
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+    {% if user.is_authenticated %}
+        <h1>Welcome {{ user.first_name  }}</h1>
+	    <h3>Please give us a bit of information.</h3>
+        <div class="row">
+            <div id="special-form" class="col-sm-12">
+                <form method="post">
+                {% csrf_token %}
+                    <h4>Brad or Angelina?</h4>
+                    <input class="glyphicon-question-sign" type="text" placeholder="Well...">
+
+                    <h4>Sushi or Pizza?</h4>
+                    <input type="text" placeholder="Hello...">
+
+                    <h4>Paris or New Orleans?</h4>
+                    <input type="text" placeholder="You There...">
+
+                    <h4>Boogars or Snot?</h4>
+                    <input type="text" placeholder="Cool...">
+                    <br>
+                    <div>
+                        <a href="{% url 'angular' %}"><button class="alert-success">Submit</button></a>
+                    </div>
+                </form>
+
+                <div id="rainy">Rainy Evenings
+                    <a href="{% url 'angular' %}">cheat</a>
+                </div>
+            </div>
+        </div>
+
+
+{# Content to display if a user is unregistered or not logged in #}
+	{% else %}
+        <h1>Welcome to Cinematch. </h1>
+        <h2>Where we help you find the movie you want to watch, right now.</h2>
+        <h4>Please login or signup</h4>
+	    <button><a href="{% url 'auth_login' %}">Log in</a></button>
+	{% endif %}
+
+{# Try and get the time #}
+
+    </div>
+
+
+{% endblock %}

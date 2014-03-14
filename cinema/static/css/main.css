@@ -1,12 +1,30 @@
 
 body {
     font-family: 'Bubbler One', sans-serif;
+}
 
+a {
+    text-decoration: none;
 }
 
 h1, h2, h3, h4 {
     font-family: 'Bubbler One', sans-serif;
     text-align: center;
     font-style: 18px;
+}
+
+input {
+    text-align: center;
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#special-form {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 

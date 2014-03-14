@@ -7,35 +7,31 @@ from tastypie.resources import ModelResource, Resource
 from cinema.models import Genre, Movie, Rating, UniqueForm # Old Stuff = Student, Class, StudentProject
 
 
-# class BareGenreResource(ModelResource):
-#     class Meta:
-#         queryset = Genre.objects.all()
-#         resource_name = "bare_class"
-#
-#
-# class BareMovieResource(ModelResource):
-#     class Meta:
-#         queryset = StudentProject.objects.all()
-#         resource_name = "bare_student_project"
+class BareMovieResource(ModelResource):
+    class Meta:
+        queryset = Movie.objects.all()
+        resource_name = "bare_movie"
 
 
 class GenreResource(ModelResource):
-    klass = ToOneField(BareClassResource, 'klass', full=True)
-    projects = ToManyField(BareStudentProjectResource, 'projects', full=True, null=True)
+    movies = ToManyField(BareMovieResource, 'movies', full=True, null=True)
 
     class Meta:
-        queryset = Student.objects.all()
-        resource_name = "student"
+        allowed_methods = ['get']
+        queryset = Genre.objects.all()
+        resource_name = "genre"
         authorization = Authorization()
-
+        always_return_date = True
 
 class MovieResource(ModelResource):
-    student = ToOneField(StudentResource, 'student', full=True)
+    genre = ToOneField(GenreResource, 'genre', full=True)
 
     class Meta:
-        queryset = StudentProject.objects.all()
-        resource_name = "student_project"
+        allowed_methods = ['get']
+        queryset = Movie.objects.all()
+        resource_name = "movie"
         authorization = Authorization()
+        always_return_date = True
 
 
 class RatingResource(ModelResource):

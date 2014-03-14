@@ -1,5 +1,6 @@
 $bubbler-font: 'Bubbler One', sans-serif;
 
+
 body {
   font-family: $bubbler-font;
 
@@ -8,6 +9,11 @@ body {
       text-align: center;
       font-style: 18px;
   }
+}
+
+img {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #main-poster {
