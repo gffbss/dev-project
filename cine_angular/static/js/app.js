@@ -10,6 +10,6 @@ cinematch.config(['$routeProvider', function($routeProvider){
     $routeProvider.
         when('/', {templateUrl: '/static/views/index.html', controller: IndexCtrl}).
         when('/choice/', {templateUrl: '/static/views/choice.html', controller: ChoiceCtrl}).
-//        when('/add/student-project/', {templateUrl: '/static/views/add_student_project.html', controller: AddStudentProjectCtrl}).
+        when('/add/student-project/', {templateUrl: '/static/views/add_student_project.html', controller: AddStudentProjectCtrl}).
         otherwise({redirectTo: '/'});
 }]);

@@ -11,12 +11,15 @@ class Genre(models.Model):
         return self.genre_type
 
 class Movie(models.Model):
-    year = models.PositiveSmallIntegerField()
+    year = models.CharField(max_length=275)
     length = models.PositiveSmallIntegerField(null=True)
     title = models.CharField(max_length=275)
     genre = models.ForeignKey(Genre)
     poster = models.ImageField(upload_to='film_posters', default='cinema/static/img/no_poster.jpg')
     trailer = models.CharField(max_length=500, null=True)
+
+    def __unicode__(self):
+        return self.title
 
 class Rating(models.Model):
     movie = models.ForeignKey(Movie)
