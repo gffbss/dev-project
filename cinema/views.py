@@ -7,6 +7,7 @@ from django.contrib.auth.models import User
 from django.core.cache import cache
 from django.http import HttpResponse
 import time
+from cinema.models import Movie
 
 
 def home(request):
