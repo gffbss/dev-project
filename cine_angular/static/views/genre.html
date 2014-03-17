@@ -1,1 +1,50 @@
-<div ng-repeat="for genre in genres"><i>{{ genre.genre_type }}</i></div>
+<!-- <div ng-repeat="for genre in genres"><i> genre.genre_type </i></div> -->
+
+<div ng-repeat="(movie, genre) in {'movie': 'genre'}"><li>{{ movie.genre }}</li></div>
+
+Genre:<select ng-model="genre.movie" ng-options="genre.resource_uri as movie.genre for movie in movies"></select>
+
+
+
+<!--
+resource uri for genres:
+/api/v1/genre/1/
+
+Movie:<select ng-model="genre.movie" ng-options="genre.resource_uri as movie.genre for movie in movies"></select>
+
+
+Total movies
+74
+164
+92
+50
+45
+714
+848
+8
+5
+384
+76
+119
+156
+24
+566
+185
+40
+10
+534
+615
+9
+80
+18
+716
+1725
+431
+937
+1498
+2146
+1491
+=
+13,760
+I have 170 more in DB... duplicates...
+-->

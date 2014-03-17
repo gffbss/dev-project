@@ -13,7 +13,7 @@ cinematch.config(['$routeProvider', '$locationProvider', function($routeProvider
         when('/laugh-moods', {templateUrl: '/static/views/laugh_moods.html', controller: LaughCtrl}).
         when('/date-moods', {templateUrl: '/static/views/date_moods.html', controller: DateCtrl}).
         when('/best-moods', {templateUrl: '/static/views/best_day_moods.html', controller: BestDayCtrl}).
-        when('/love-moods', {templateUrl: '/static/views/love_moods.html', controller: LoveCtrl}).
+        when('/exploring-moods', {templateUrl: '/static/views/exploring_moods.html', controller: ExploringCtrl}).
         when('/sick-moods', {templateUrl: '/static/views/sick_moods.html', controller: SickCtrl}).
 
         when('/choice/', {templateUrl: '/static/views/choice.html', controller: ChoiceCtrl}).

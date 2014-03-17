@@ -4,10 +4,10 @@
     <ul ng-repeat="movie in movies | orderBy:random | limitTo: 1">
         <h1>{{ movie.title }}</h1>
         <img id="main-poster" class="img-rounded img-responsive" src="http://image.tmdb.org/t/p/w185/{{ movie.poster }}">
-        <h3>{{ movie.year }}</h3>
+        <h4>{{ movie.year }}</h4>
     </ul>
-        <h1>Good Choice dingus</h1>
-        <a href="/">You hate it? Go back...</a>
+        <h2>Good Choice dingus</h2>
+        <a href="#/moods">You hate it? So Go back...</a>
 
     </div>
 </div>

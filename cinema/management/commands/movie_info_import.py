@@ -17,8 +17,10 @@ class Command(BaseCommand):
         data = requests.get("https://api.themoviedb.org/3/genre/" + str(genre.genre_api_id) + "/movies?api_key=b5c36e93a1666d97327676b31e503755")
         data = data.json()
 
+        # calling the process_results function
         self.process_results(data, genre)
 
+        # Handling pagination issues, ie allowing the url to go through all the pages for a specific genre
         for page in range(1, data["total_pages"]):
             url = requests.get("https://api.themoviedb.org/3/genre/" + str(genre.genre_api_id) + "/movies?api_key=b5c36e93a1666d97327676b31e503755&page=" + str(page))
             # pass results to process results

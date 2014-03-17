@@ -31,7 +31,7 @@ def get_movie_data(request):
             Movie.objects.create(year=row[0], length=row[1], title=row[2], genre=row[3])
 
 # Very beta version of the matched results page. Like Uber beta
-def movie_choice(request):
+def random(request):
     return render(request, 'match.html')
 
 # Get the time

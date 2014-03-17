@@ -1,22 +1,17 @@
 /**
+ * Created by geoffreyboss on 3/14/14.
+ */
+/**
  * Created by geoffreyboss on 3/13/14.
  */
 
 // basically a js function that we want to do stuff for us. every controller will have $scope as the initial argument
-function GenreCtrl($scope, $http) {
+function ExploringCtrl($scope, $http) {
     // $http would be like a library we are calling just like python
-    $http.get('/api/v1/genre/?format=json&limit=30').
-        success(function(genres){
+    $http.get('/api/v1/movie/?format=json').
+        success(function(movies){
             // we need to be specific with our movies.objects which will give us the specific data. If
             // if was just movies it would be the entire json object and would not be iterable
-            $scope.genres = genres.objects;
-            console.log(genres);
-
-
-            // This random function will return a randomly generated movie for the choice.html
-//            $scope.random = function() {
-//                return Math.random();
-//            }
-
+            $scope.movies = movies.objects;
     });
 }

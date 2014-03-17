@@ -19,7 +19,7 @@ v1_api.register(GenreResource())
 urlpatterns = patterns('',
     # Main page urls
     url(r'^$', 'cinema.views.home', name='index'),
-    url(r'^cinema/match/$', 'cinema.views.movie_choice', name='movie_choice'),
+    url(r'^random/$', 'cinema.views.random', name='random'),
     url(r'^time/$', 'cinema.views.get_the_time', name='get_the_time'),
 
     # Old Version url testing
