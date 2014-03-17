@@ -16,6 +16,17 @@ class Command(BaseCommand):
     def get_movies_for_genre(self, genre):
         data = requests.get("https://api.themoviedb.org/3/genre/" + str(genre.genre_api_id) + "/movies?api_key=b5c36e93a1666d97327676b31e503755")
         data = data.json()
+
+        self.process_results(data, genre)
+
+        for page in range(1, data["total_pages"]):
+            url = requests.get("https://api.themoviedb.org/3/genre/" + str(genre.genre_api_id) + "/movies?api_key=b5c36e93a1666d97327676b31e503755&page=" + str(page))
+            # pass results to process results
+            data = url.json()
+
+            self.process_results(data, genre)
+
+    def process_results(self, data, genre):
         movies = data["results"]
 
         # populating the db using the data from our api call
@@ -28,3 +39,5 @@ class Command(BaseCommand):
                 poster=movie['poster_path']
 
             )
+
+

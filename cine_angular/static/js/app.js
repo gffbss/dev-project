@@ -6,7 +6,7 @@ var cinematch = angular.module('cinematch', ['ngRoute']);
 
 // these are angulars urls basically, but called routes
 // controller is equal to a view in django, handles submitting a post to the server for example
-cinematch.config(['$routeProvider', function($routeProvider){
+cinematch.config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider){
     $routeProvider.
         when('/', {templateUrl: '/static/views/moods.html', controller: IndexCtrl}).
         when('/rainy-moods', {templateUrl: '/static/views/rainy_moods.html', controller: RainyCtrl}).
@@ -19,4 +19,5 @@ cinematch.config(['$routeProvider', function($routeProvider){
         when('/choice/', {templateUrl: '/static/views/choice.html', controller: ChoiceCtrl}).
         when('/rainy-moods/choice/', {templateUrl: '/static/views/genre.html', controller: GenreCtrl}).
         otherwise({redirectTo: '/'});
+//    $locationProvider.html5Mode(true);
 }]);
