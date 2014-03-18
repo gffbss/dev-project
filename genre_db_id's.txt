@@ -1,0 +1,211 @@
+objects: [
+{
+genre_api_id: 28,
+genre_type: "Action",
+id: 1,
+movies: [ ],
+resource_uri: "/api/v1/genre/1/"
+},
+{
+genre_api_id: 18,
+genre_type: "Drama",
+id: 2,
+movies: [ ],
+resource_uri: "/api/v1/genre/2/"
+},
+{
+genre_api_id: 53,
+genre_type: "Thriller",
+id: 3,
+movies: [ ],
+resource_uri: "/api/v1/genre/3/"
+},
+{
+genre_api_id: 12,
+genre_type: "Adventure",
+id: 4,
+movies: [ ],
+resource_uri: "/api/v1/genre/4/"
+},
+{
+genre_api_id: 16,
+genre_type: "Animation",
+id: 5,
+movies: [ ],
+resource_uri: "/api/v1/genre/5/"
+},
+{
+genre_api_id: 35,
+genre_type: "Comedy",
+id: 6,
+movies: [ ],
+resource_uri: "/api/v1/genre/6/"
+},
+{
+genre_api_id: 80,
+genre_type: "Crime",
+id: 7,
+movies: [ ],
+resource_uri: "/api/v1/genre/7/"
+},
+{
+genre_api_id: 105,
+genre_type: "Disaster",
+id: 8,
+movies: [ ],
+resource_uri: "/api/v1/genre/8/"
+},
+{
+genre_api_id: 99,
+genre_type: "Documentary",
+id: 9,
+movies: [ ],
+resource_uri: "/api/v1/genre/9/"
+},
+{
+genre_api_id: 82,
+genre_type: "Eastern",
+id: 10,
+movies: [ ],
+resource_uri: "/api/v1/genre/10/"
+},
+{
+genre_api_id: 10751,
+genre_type: "Family",
+id: 11,
+movies: [ ],
+resource_uri: "/api/v1/genre/11/"
+},
+{
+genre_api_id: 14,
+genre_type: "Fantasy",
+id: 12,
+movies: [ ],
+resource_uri: "/api/v1/genre/12/"
+},
+{
+genre_api_id: 10753,
+genre_type: "Film Noir",
+id: 13,
+movies: [ ],
+resource_uri: "/api/v1/genre/13/"
+},
+{
+genre_api_id: 10769,
+genre_type: "Foreign",
+id: 14,
+movies: [ ],
+resource_uri: "/api/v1/genre/14/"
+},
+{
+genre_api_id: 36,
+genre_type: "History",
+id: 15,
+movies: [ ],
+resource_uri: "/api/v1/genre/15/"
+},
+{
+genre_api_id: 27,
+genre_type: "Horror",
+id: 16,
+movies: [ ],
+resource_uri: "/api/v1/genre/16/"
+},
+{
+genre_api_id: 10595,
+genre_type: "Holiday",
+id: 17,
+movies: [ ],
+resource_uri: "/api/v1/genre/17/"
+},
+{
+genre_api_id: 10756,
+genre_type: "Indie",
+id: 18,
+movies: [ ],
+resource_uri: "/api/v1/genre/18/"
+},
+{
+genre_api_id: 10402,
+genre_type: "Music",
+id: 19,
+movies: [ ],
+resource_uri: "/api/v1/genre/19/"
+},
+{
+genre_api_id: 22,
+genre_type: "Musical",
+id: 20,
+movies: [ ],
+resource_uri: "/api/v1/genre/20/"
+},
+{
+genre_api_id: 9648,
+genre_type: "Mystery",
+id: 21,
+movies: [ ],
+resource_uri: "/api/v1/genre/21/"
+},
+{
+genre_api_id: 10754,
+genre_type: "Neo-noir",
+id: 22,
+movies: [ ],
+resource_uri: "/api/v1/genre/22/"
+},
+{
+genre_api_id: 1115,
+genre_type: "Road Movie",
+id: 23,
+movies: [ ],
+resource_uri: "/api/v1/genre/23/"
+},
+{
+genre_api_id: 10749,
+genre_type: "Romance",
+id: 24,
+movies: [ ],
+resource_uri: "/api/v1/genre/24/"
+},
+{
+genre_api_id: 878,
+genre_type: "Science Fiction",
+id: 25,
+movies: [ ],
+resource_uri: "/api/v1/genre/25/"
+},
+{
+genre_api_id: 9805,
+genre_type: "Sport",
+id: 26,
+movies: [ ],
+resource_uri: "/api/v1/genre/26/"
+},
+{
+genre_api_id: 10757,
+genre_type: "Sports Film",
+id: 27,
+movies: [ ],
+resource_uri: "/api/v1/genre/27/"
+},
+{
+genre_api_id: 10748,
+genre_type: "Suspense",
+id: 28,
+movies: [ ],
+resource_uri: "/api/v1/genre/28/"
+},
+{
+genre_api_id: 10752,
+genre_type: "War",
+id: 29,
+movies: [ ],
+resource_uri: "/api/v1/genre/29/"
+},
+{
+genre_api_id: 37,
+genre_type: "Western",
+id: 30,
+movies: [ ],
+resource_uri: "/api/v1/genre/30/"
+}

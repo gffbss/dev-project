@@ -1,6 +1,7 @@
 
 body {
     font-family: 'Bubbler One', sans-serif;
+    /*background: radial-gradient(#eee,#444);*/
 }
 
 a {
@@ -12,6 +13,7 @@ h1, h2, h3, h4 {
     text-align: center;
     font-style: 18px;
 }
+
 
 input {
     text-align: center;
@@ -28,3 +30,6 @@ img {
     margin-right: auto;
 }
 
+#footer {
+    padding-top: 100px;
+}

@@ -32,6 +32,9 @@ class MovieResource(ModelResource):
         resource_name = "movie"
         authorization = Authorization()
         always_return_date = True
+        filtering = {
+            "genre": ALL_WITH_RELATIONS
+        }
 
 
 class RatingResource(ModelResource):

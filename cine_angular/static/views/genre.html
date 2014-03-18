@@ -1,18 +1,22 @@
-<!-- <div ng-repeat="for genre in genres"><i> genre.genre_type </i></div> -->
+<!-- <div ng-repeat="for genre in genres"><i> genre.genre_type </i></div>
 
 <div ng-repeat="(movie, genre) in {'movie': 'genre'}"><li>{{ movie.genre }}</li></div>
 
-Genre:<select ng-model="genre.movie" ng-options="genre.resource_uri as movie.genre for movie in movies"></select>
+Genre:<select ng-model="genre.movie" ng-options="genre.resource_uri as movie.genre for movie in movies"></select> -->
 
-
-
+        <ul ng-repeat="genre in genres">
+            <h1>{{ genre.genre_type }} - {{ genre.genre_api_id }}</h1>
+            <h2>--------------------------------</h2>
+        </ul>
 <!--
 resource uri for genres:
 /api/v1/genre/1/
 
-Movie:<select ng-model="genre.movie" ng-options="genre.resource_uri as movie.genre for movie in movies"></select>
+-->
 
+Movie:<select ng-model="genre.genre_type" ng-options="movie.resource_uri as movie.genre for movie in movies"></select>
 
+<!--
 Total movies
 74
 164

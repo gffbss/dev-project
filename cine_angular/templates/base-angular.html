@@ -69,11 +69,24 @@
 
 
 {# Footer #}
-    <div id="footer">
+<div class="container" id="footer">
+    <nav class="navbar navbar-default navbar-bottom">
+        <div class="navbar-inner navbar-content-center">
         {% block footer %}
-        <hr />
+            <a href="{% url 'index' %}">{% trans "Home" %}</a> |
+
+            {% if user.is_authenticated %}
+                {% trans "Logged in as" %}: {{ user.first_name }}
+                (<a href="{% url 'auth_logout' %}">{% trans "Log out" %}</a> |
+                <a href="{% url 'auth_password_change' %}">{% trans "Change password" %}</a>)
+            {% else %}
+
+                <a href="{% url 'auth_login' %}">{% trans "Log in" %}</a>
+            {% endif %}
         {% endblock %}
-    </div>
+        </div>
+    </nav>
+</div>
 
 </body>
 </html>
