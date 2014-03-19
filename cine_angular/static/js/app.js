@@ -17,8 +17,13 @@ cinematch.config(['$routeProvider', '$locationProvider', function($routeProvider
         when('/exploring-moods', {templateUrl: '/static/views/exploring_moods.html', controller: ExploringCtrl}).
         when('/sick-moods', {templateUrl: '/static/views/sick_moods.html', controller: SickCtrl}).
 
+        // Our Selection views
         when('/choice/', {templateUrl: '/static/views/choice.html', controller: ChoiceCtrl}).
-        when('/rainy-moods/choice/', {templateUrl: '/static/views/genre.html', controller: GenreCtrl}).
+
+        // Rainy Mood Choices
+        when('/rainy-moods/choice1/', {templateUrl: '/static/views/rain_choice_2.html', controller: RainyCtrl}).
+        when('/rainy-moods/choice2/', {templateUrl: '/static/views/rain_choice_2.html', controller: RainyCtrl}).
+        when('/rainy-moods/choice3/', {templateUrl: '/static/views/rain_choice_2.html', controller: RainyCtrl}).
         otherwise({redirectTo: '/'});
 //    $locationProvider.html5Mode(true);
 }]);

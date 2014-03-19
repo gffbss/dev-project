@@ -16,8 +16,9 @@
 <body>
 
 
-<nav class="navbar navbar-default" role="navigation">
-    <div class="container-fluid" id="header">
+<div class="navbar navbar-default" role="navigation">
+    <a class="navbar-brand" href="#"><img src="static/img/cine-1.png"></a>
+    <div class="container-fluid navbar-right" id="header">
         {% block header %}
 	<a href="{% url 'index' %}">{% trans "Home" %}</a> |
 
@@ -31,14 +32,14 @@
 	{% endif %}
         {% endblock %}
     </div>
-</nav>
+</div>
     <div class="container">
         {% block content %}{% endblock %}
     </div>
 
-    <div id="footer">
+    <div class="container" id="footer">
         {% block footer %}
-        <hr />
+
         {% endblock %}
     </div>
 </body>

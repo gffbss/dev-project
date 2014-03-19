@@ -2,7 +2,12 @@
 body {
     font-family: 'Bubbler One', sans-serif;
     /*background: radial-gradient(#eee,#444);*/
+
 }
+
+/*.header {*/
+    /*background-color: darkgrey;*/
+/*}*/
 
 a {
     text-decoration: none;
@@ -32,4 +37,5 @@ img {
 
 #footer {
     padding-top: 100px;
+
 }
