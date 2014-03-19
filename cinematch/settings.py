@@ -100,6 +100,7 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.messages.middleware.MessageMiddleware',
     # Uncomment the next line for simple clickjacking protection:
     # 'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
 )
 
 ROOT_URLCONF = 'cinematch.urls'
@@ -112,6 +113,8 @@ TEMPLATE_DIRS = (
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
 )
+
+CORS_ORIGIN_ALLOW_ALL = True
 
 INSTALLED_APPS = (
     'cinema',
@@ -130,6 +133,7 @@ INSTALLED_APPS = (
     'tastypie',
     'tastypie_swagger',
     'cine_angular',
+    'corsheaders',
 
 )
 
