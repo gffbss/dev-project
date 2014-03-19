@@ -28,6 +28,8 @@ urlpatterns = patterns('',
     # Api
     url(r'^api/', include(v1_api.urls)),
 
+    # make a django view that requests the json and then from the controller my specific apple url
+
     # Angular urls
     url(r'^moods/$', 'cine_angular.views.angular', name="angular"),
 

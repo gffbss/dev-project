@@ -114,7 +114,6 @@ TEMPLATE_DIRS = (
     # Don't forget to use absolute paths, not relative paths.
 )
 
-CORS_ORIGIN_ALLOW_ALL = True
 
 INSTALLED_APPS = (
     'cinema',
@@ -133,8 +132,6 @@ INSTALLED_APPS = (
     'tastypie',
     'tastypie_swagger',
     'cine_angular',
-    'corsheaders',
-
 )
 
 LOGIN_REDIRECT_URL = "index"
