@@ -9,7 +9,7 @@
   <input type="submit" value="{% trans 'Log in' %}" />
   <input type="hidden" name="next" value="{{ next }}" />
 </form>
-
+<br />
 <p>{% trans "Forgot your password" %}? <a href="{% url 'auth_password_reset' %}">{% trans "No problem! Reset it" %}</a>!</p>
 <p>{% trans "Not registered" %}? <a href="{% url 'registration_register' %}">{% trans "Please join us" %}</a>!</p>
 {% endblock %}
