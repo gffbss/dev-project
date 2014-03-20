@@ -12,7 +12,6 @@ v1_api = Api(api_name="v1")
 v1_api.register(MovieResource())
 v1_api.register(GenreResource())
 # v1_api.register(RatingResource())
-#
 # v1_api.register(MediaResource())
 
 
@@ -23,12 +22,13 @@ urlpatterns = patterns('',
     url(r'^time/$', 'cinema.views.get_the_time', name='get_the_time'),
 
     # Old Version url testing
-    url(r'^old_index/$', 'cinema.views.old_index', name='old_index'),
+    # url(r'^old_index/$', 'cinema.views.old_index', name='old_index'),
 
     # Api
     url(r'^api/', include(v1_api.urls)),
 
     # make a django view that requests the json and then from the controller my specific apple url
+    url(r'^apple/', 'cine_angular.views.get_apple_link', name="apple_link"),
 
     # Angular urls
     url(r'^moods/$', 'cine_angular.views.angular', name="angular"),

@@ -1,5 +1,6 @@
 body {
-  font-family: "Bubbler One", sans-serif; }
+  font-family: "Bubbler One", sans-serif;
+  background-image: linear-gradient(#70a8e8, #62fffc); }
   body h1, body h2, body h3, body h4, body h5 {
     font-family: "Bubbler One", sans-serif;
     text-align: center;

@@ -15,6 +15,10 @@ function RainyCtrl($scope, $http) {
             // if was just movies it would be the entire json object and would not be iterable
             $scope.movies = movies.objects;
             console.log(movies);
+
+            $scope.random = function() {
+                return Math.random();
+            }
     });
 
     // 9648 == Mystery

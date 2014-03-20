@@ -13,25 +13,24 @@ function ChoiceCtrl($scope, $http) {
             // if was just movies it would be the entire json object and would not be iterable
             $scope.movies = movies.objects;
 
-            $scope.movie = $scope.movies[0]//a random movie from movies
+            $scope.movie = $scope.movies[Math.floor(Math.random() * $scope.movies.length)]; //a random movie from movies
+            console.log(movies);
+//          This random function will return a randomly generated movie for the choice
+//            $scope.random = function() {
+//                return Math.random();
+//            }
 
-            // This random function will return a randomly generated movie for the choice
-            $scope.random = function() {
-                return Math.random();
-            }
-//            console.log(movies)
+            $http.get('/apple/?movie_title=' + $scope.movie.title).
+                success(function(movie_link){
+                    // we need to be specific with our movies.objects which will give us the specific data. If
+                    // if was just movies it would be the entire json object and would not be iterable
+                    $scope.movie_link = movie_link.trackViewUrl;
 
+                    console.log(movie_link.url);
+
+            });
     });
 
-    $http.get('https://itunes.apple.com/search?term=The+Shining&entity=movie&format=jsonp').
-        success(function(movie_link){
-            // we need to be specific with our movies.objects which will give us the specific data. If
-            // if was just movies it would be the entire json object and would not be iterable
-            $scope.movie_link = movie_link.trackViewUrl;
 
-
-            console.log(movie_link);
-
-    });
 
 }
