@@ -14,11 +14,7 @@ function ChoiceCtrl($scope, $http) {
             $scope.movies = movies.objects;
 
             $scope.movie = $scope.movies[Math.floor(Math.random() * $scope.movies.length)]; //a random movie from movies
-            console.log(movies);
-//          This random function will return a randomly generated movie for the choice
-//            $scope.random = function() {
-//                return Math.random();
-//            }
+
 
             $http.get('/apple/?movie_title=' + $scope.movie.title).
                 success(function(movie_link){

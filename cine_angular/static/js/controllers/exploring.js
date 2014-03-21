@@ -4,8 +4,6 @@
 
 // basically a js function that we want to do stuff for us. every controller will have $scope as the initial argument
 function ExploringCtrl($scope, $http) {
-    // This random function will return a randomly generated movie for the choice.html
-
     // $http would be like a library we are calling just like python
     // the genre={{db-id}} accepts the id associated with the genre. See .txt file
 
@@ -64,5 +62,9 @@ function ExploringCtrl($scope, $http) {
 
             });
     });
+
+    function randomMovieGenerator(arg, arg2){
+        $scope.arg = $scope.arg2[Math.floor(Math.random() * $scope.arg2.length)]; //a random movie from movies
+    }
 
 }
