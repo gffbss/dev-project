@@ -39,8 +39,19 @@ cinematch.config(['$routeProvider', '$locationProvider', function($routeProvider
         when('/exploring-moods/choice1/', {templateUrl: '/static/views/explore/exploring_choice_1.html', controller: ExploringCtrl}).
         when('/exploring-moods/choice2/', {templateUrl: '/static/views/explore/exploring_choice_2.html', controller: ExploringCtrl}).
         when('/exploring-moods/choice3/', {templateUrl: '/static/views/explore/exploring_choice_3.html', controller: ExploringCtrl}).
+
+        // Best Day Mood Choices
+        when('/best-moods/choice1/', {templateUrl: '/static/views/best/bestday_choice_1.html', controller: BestDayCtrl}).
+        when('/best-moods/choice2/', {templateUrl: '/static/views/best/bestday_choice_2.html', controller: BestDayCtrl}).
+        when('/best-moods/choice3/', {templateUrl: '/static/views/best/bestday_choice_3.html', controller: BestDayCtrl}).
+
+        // Sick Day Mood Choices
+        when('/sick-moods/choice1/', {templateUrl: '/static/views/sick/sick_choice_1.html', controller: SickCtrl}).
+        when('/sick-moods/choice2/', {templateUrl: '/static/views/sick/sick_choice_2.html', controller: SickCtrl}).
+        when('/sick-moods/choice3/', {templateUrl: '/static/views/sick/sick_choice_3.html', controller: SickCtrl}).
         otherwise({redirectTo: '/'});
 //    $locationProvider.html5Mode(true);
 }]);
+
 
 
