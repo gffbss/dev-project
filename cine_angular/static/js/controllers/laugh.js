@@ -42,7 +42,6 @@ function LaughCtrl($scope, $http) {
                     // we need to be specific with our movies.objects which will give us the specific data. If
                     // if was just movies it would be the entire json object and would not be iterable
                     $scope.comedy_movie_link = comedy_movie_link;
-                    console.log(comedy_movie_link);
 
             });
     });

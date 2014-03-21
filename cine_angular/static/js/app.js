@@ -34,6 +34,11 @@ cinematch.config(['$routeProvider', '$locationProvider', function($routeProvider
         when('/date-moods/choice1/', {templateUrl: '/static/views/date/date_choice_1.html', controller: DateCtrl}).
         when('/date-moods/choice2/', {templateUrl: '/static/views/date/date_choice_2.html', controller: DateCtrl}).
         when('/date-moods/choice3/', {templateUrl: '/static/views/date/date_choice_3.html', controller: DateCtrl}).
+
+        // Date Mood Choices
+        when('/exploring-moods/choice1/', {templateUrl: '/static/views/explore/exploring_choice_1.html', controller: ExploringCtrl}).
+        when('/exploring-moods/choice2/', {templateUrl: '/static/views/explore/exploring_choice_2.html', controller: ExploringCtrl}).
+        when('/exploring-moods/choice3/', {templateUrl: '/static/views/explore/exploring_choice_3.html', controller: ExploringCtrl}).
         otherwise({redirectTo: '/'});
 //    $locationProvider.html5Mode(true);
 }]);

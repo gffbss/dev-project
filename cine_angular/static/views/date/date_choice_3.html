@@ -1,9 +1,19 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title></title>
-</head>
-<body>
+<div class="row">
+    <div ng-show="drama_movie">
+        <div class="col-md-7">
+                <img id="main-poster" class="img-rounded img-responsive" src="http://image.tmdb.org/t/p/w185/{{ drama_movie.poster }}">
+        </div>
 
-</body>
-</html>
+        <div class="col-md-5">
+                <h1>{{ drama_movie.title }}</h1>
+                <h4>{{ drama_movie.year }}</h4>
+                <h4>{{ drama_movie.genre.genre_type }}</h4>
+                <h2>How To Watch</h2>
+                <h5><a href="http://www.amazon.com/s/ref=nb_sb_noss_1?url=search-alias%3Dinstant-video&field-keywords={{ drama_movie.title }}" target="_blank">Amazon Prime</a></h5>
+                <h5><a href="http://search.ovguide.com/?ci=101&q={{ drama_movie.title }}" target="_blank">OV Guide</a></h5>
+                <h5><a href="{{ drama_movie_link.url }}" target="_blank"> Apple TV</a></h5>
+        </div>
+                <h4><a href="#/moods">You hate it? So Go back...</a></h4>
+    </div>
+</div>
+

@@ -28,39 +28,38 @@ function DateCtrl($scope, $http) {
             });
     });
 
-    // For choice 2 ~ 6 == Comedy
-    $http.get('/api/v1/movie/?genre=6&format=json&limit=999').
-        success(function(comedy_movies){
+    // For choice 2 ~ 16 == HORROR!
+    $http.get('/api/v1/movie/?genre=16&format=json&limit=999').
+        success(function(horror_movies){
             // we need to be specific with our movies.objects which will give us the specific data. If
             // if was just movies it would be the entire json object and would not be iterable
-            $scope.comedy_movies = comedy_movies.objects;
+            $scope.horror_movies = horror_movies.objects;
 
-            $scope.comedy_movie = $scope.comedy_movies[Math.floor(Math.random() * $scope.comedy_movies.length)]; //a random movie from movies
+            $scope.horror_movie = $scope.horror_movies[Math.floor(Math.random() * $scope.horror_movies.length)]; //a random movie from movies
 
-            $http.get('/apple/?movie_title=' + $scope.comedy_movie.title).
-                success(function(comedy_movie_link){
+            $http.get('/apple/?movie_title=' + $scope.horror_movie.title).
+                success(function(horror_movie_link){
                     // we need to be specific with our movies.objects which will give us the specific data. If
                     // if was just movies it would be the entire json object and would not be iterable
-                    $scope.comedy_movie_link = comedy_movie_link;
-                    console.log(comedy_movie_link);
+                    $scope.horror_movie_link = horror_movie_link;
 
             });
     });
 
-    // For choice 3 ~ 17 == Holiday
-    $http.get('/api/v1/movie/?genre=17&format=json&limit=999').
-        success(function(holiday_movies){
+    // For choice 3 ~ 2 == Drama
+    $http.get('/api/v1/movie/?genre=2&format=json&limit=999').
+        success(function(drama_movies){
             // we need to be specific with our movies.objects which will give us the specific data. If
             // if was just movies it would be the entire json object and would not be iterable
-            $scope.holiday_movies = holiday_movies.objects;
+            $scope.drama_movies = drama_movies.objects;
 
-            $scope.holiday_movie = $scope.holiday_movies[Math.floor(Math.random() * $scope.holiday_movies.length)]; //a random movie from movies
+            $scope.drama_movie = $scope.drama_movies[Math.floor(Math.random() * $scope.drama_movies.length)]; //a random movie from movies
 
-            $http.get('/apple/?movie_title=' + $scope.holiday_movie.title).
-                success(function(holiday_movie_link){
+            $http.get('/apple/?movie_title=' + $scope.drama_movie.title).
+                success(function(drama_movie_link){
                     // we need to be specific with our movies.objects which will give us the specific data. If
                     // if was just movies it would be the entire json object and would not be iterable
-                    $scope.holiday_movie_link = holiday_movie_link;
+                    $scope.drama_movie_link = drama_movie_link;
 
 
             });
