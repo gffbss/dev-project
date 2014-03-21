@@ -21,9 +21,19 @@ cinematch.config(['$routeProvider', '$locationProvider', function($routeProvider
         when('/choice/', {templateUrl: '/static/views/choice.html', controller: ChoiceCtrl}).
 
         // Rainy Mood Choices
-        when('/rainy-moods/choice1/', {templateUrl: '/static/views/rain_choice_1.html', controller: RainyCtrl}).
-        when('/rainy-moods/choice2/', {templateUrl: '/static/views/rain_choice_2.html', controller: RainyCtrl}).
-        when('/rainy-moods/choice3/', {templateUrl: '/static/views/rain_choice_3.html', controller: RainyCtrl}).
+        when('/rainy-moods/choice1/', {templateUrl: '/static/views/rain/rain_choice_1.html', controller: RainyCtrl}).
+        when('/rainy-moods/choice2/', {templateUrl: '/static/views/rain/rain_choice_2.html', controller: RainyCtrl}).
+        when('/rainy-moods/choice3/', {templateUrl: '/static/views/rain/rain_choice_3.html', controller: RainyCtrl}).
+
+        // Laugh Mood Choices
+        when('/laugh-moods/choice1/', {templateUrl: '/static/views/laugh/laugh_choice_1.html', controller: LaughCtrl}).
+        when('/laugh-moods/choice2/', {templateUrl: '/static/views/laugh/laugh_choice_2.html', controller: LaughCtrl}).
+        when('/laugh-moods/choice3/', {templateUrl: '/static/views/laugh/laugh_choice_3.html', controller: LaughCtrl}).
+
+        // Date Mood Choices
+        when('/date-moods/choice1/', {templateUrl: '/static/views/date/date_choice_1.html', controller: DateCtrl}).
+        when('/date-moods/choice2/', {templateUrl: '/static/views/date/date_choice_2.html', controller: DateCtrl}).
+        when('/date-moods/choice3/', {templateUrl: '/static/views/date/date_choice_3.html', controller: DateCtrl}).
         otherwise({redirectTo: '/'});
 //    $locationProvider.html5Mode(true);
 }]);

@@ -9,19 +9,6 @@ def angular(request):
     return render(request, "base-angular.html")
 
 
-# def get_apple_link(request, movie):
-#     resp = requests.get("https://itunes.apple.com/search?term=" + movie + "&entity=movie")
-#     apple_movie_link = resp.json()
-#     url = apple_movie_link['trackViewUrl']
-#
-#     data = {"movie":movie, "url":url}
-#     response = render_to_response(
-#         "api-test.html",
-#         data
-#     )
-#
-#     return response
-
 def get_apple_link(request):
     movie_title = request.GET.get('movie_title')
     resp = requests.get("https://itunes.apple.com/search?term={0}&entity=movie".format(movie_title))

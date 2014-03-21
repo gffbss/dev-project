@@ -176,6 +176,6 @@ LOGGING = {
     }
 }
 
-TASTYPIE_SWAGGER_API_MODULE = "tastypie_tutorial.urls.v1_api"
+TASTYPIE_SWAGGER_API_MODULE = "cinematch.urls.v1_api"
 
 TASTYPIE_FULL_DEBUG = True

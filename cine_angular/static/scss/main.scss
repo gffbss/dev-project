@@ -1,16 +1,15 @@
 $bubbler-font: 'Bubbler One', sans-serif;
 
-
 body {
   font-family: $bubbler-font;
-  background-image: linear-gradient(
-    #70A8E8, #62FFFC
-  );
-
+//  background-image: linear-gradient(
+//    #ADC6FF, #62FFFC, #B182E8
+//  );
+//  background-repeat:no-repeat;
 
   h1, h2, h3, h4, h5 {
       font-family: $bubbler-font;
-      text-align: center;
+//      text-align: center;
       font-style: 18px;
   }
 }
@@ -18,6 +17,12 @@ body {
 img {
   margin-left: auto;
   margin-right: auto;
+
+}
+
+.img-rounded {
+  -webkit-box-shadow: 3px 3px 3px #7C7C7C;
+  box-shadow: 3px 3px 3px #7C7C7C;
 }
 
 #main-poster {
@@ -25,4 +30,14 @@ img {
   width: 275px;
   margin-left: auto;
   margin-right: auto;
+}
+
+#mood-main {
+  text-align: center;
+}
+
+@media (max-width: 620px) {
+  h1,h2, h3, h4, h5 {
+    text-align: center;
+  }
 }

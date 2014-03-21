@@ -1,0 +1,87 @@
+html {
+  text-transform: uppercase;
+  color: #fff;
+  /*THANKS SUBTLE PATTERNS*/
+  background: #e0e0e0;
+}
+
+.container {
+  width : 520px; 
+  margin: 40px auto;  
+}
+
+.container > div {
+  float: left;
+  margin: 0 20px 20px 0;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;      
+  border: 1px solid #1B1B1B;  background:url(http://subtlepatterns.com/patterns/climpek.png);
+}
+
+img {
+  width: 150%;
+  position: relative;
+  top: 0px;
+  left: 0;
+  -webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+}
+
+p {
+  text-align: center;
+  margin: 10px 0 0 0; 
+  color: #4a4a4a;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 18px;
+}
+
+/* ANIMATE */
+.transition:hover,
+.transition:active{
+   width: 100%;
+  -webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.rotate:hover {
+  -webkit-transform:rotate(360deg);
+  -webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+}
+
+.position:hover {
+  position: relative;
+  top: -40px;
+  -webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+}
+
+.move:hover {
+  position: relative;
+  top: -50px;
+  left: -50px;
+  width: 150%;
+  -webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+
+.opacity {
+  width: 103%;
+}
+
+.opacity:hover {
+  opacity: 0.2;
+  width: 100%;
+}

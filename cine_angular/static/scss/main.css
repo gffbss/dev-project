@@ -1,17 +1,26 @@
 body {
-  font-family: "Bubbler One", sans-serif;
-  background-image: linear-gradient(#70a8e8, #62fffc); }
+  font-family: "Bubbler One", sans-serif; }
   body h1, body h2, body h3, body h4, body h5 {
     font-family: "Bubbler One", sans-serif;
-    text-align: center;
     font-style: 18px; }
 
 img {
   margin-left: auto;
   margin-right: auto; }
 
+.img-rounded {
+  -webkit-box-shadow: 3px 3px 3px #7C7C7C;
+  box-shadow: 3px 3px 3px #7C7C7C; }
+
 #main-poster {
   height: 350px;
   width: 275px;
   margin-left: auto;
   margin-right: auto; }
+
+#mood-main {
+  text-align: center; }
+
+@media (max-width: 620px) {
+  h1, h2, h3, h4, h5 {
+    text-align: center; } }

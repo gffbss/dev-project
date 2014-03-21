@@ -30,6 +30,9 @@ urlpatterns = patterns('',
     # make a django view that requests the json and then from the controller my specific apple url
     url(r'^apple/', 'cine_angular.views.get_apple_link', name="apple_link"),
 
+    # Test the hover effects
+    # url(r'^hover/', 'cinema.views.hover', name="hover"),
+
     # Angular urls
     url(r'^moods/$', 'cine_angular.views.angular', name="angular"),
 

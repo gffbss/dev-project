@@ -24,9 +24,11 @@ function ChoiceCtrl($scope, $http) {
                 success(function(movie_link){
                     // we need to be specific with our movies.objects which will give us the specific data. If
                     // if was just movies it would be the entire json object and would not be iterable
-                    $scope.movie_link = movie_link.trackViewUrl;
+                    $scope.movie_link = movie_link;
 
-                    console.log(movie_link.url);
+                    console.log(movie_link);
+
+
 
             });
     });
