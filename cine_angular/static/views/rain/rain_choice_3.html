@@ -8,11 +8,10 @@
                 <h4>{{ mystery_movies.year }}</h4>
                 <h4>{{ mystery_movies.genre.genre_type }}</h4>
                 <h2>How To Watch</h2>
-                <h5><a href="http://www.amazon.com/s/ref=nb_sb_noss_1?url=search-alias%3Dinstant-video&field-keywords={{ mystery_movies.title }}" target="_blank">Amazon Prime</a></h5>
-                <h5><a href="http://search.ovguide.com/?ci=101&q={{ mystery_movies.title }}" target="_blank">OV Guide</a></h5>
-                <h5><a href="{{ mystery_movie_link.url }}" target="_blank">Apple Store</a> </h5>
-        </div>
+                <p><a href="http://www.amazon.com/s/ref=nb_sb_noss_1?url=search-alias%3Dinstant-video&field-keywords={{ mystery_movie.title }}" target="_blank"><img class="img-rounded" src="/static/img/amazon-instant-video.jpg"></a></p>
+                <p><a href="{{ mystery_movie_link.url }}" target="_blank"><img class="img-rounded" src="/static/img/apple-tv.jpg"></a></p>
+                <p><a href="http://search.ovguide.com/?ci=101&q={{ mystery_movie.title }}" target="_blank"><img class="img-rounded" src="/static/img/OVGuide_Logo.jpg"></a></p>
                 <h4><a href="#/moods">You hate it? So Go back...</a></h4>
-
+        </div>
     </div>
 </div>

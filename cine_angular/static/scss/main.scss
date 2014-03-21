@@ -1,23 +1,37 @@
 $bubbler-font: 'Bubbler One', sans-serif;
 
 body {
-  font-family: $bubbler-font;
+    font-family: 'Josefin Sans', sans-serif;
+
+//  font-family: $bubbler-font;
 //  background-image: linear-gradient(
 //    #ADC6FF, #62FFFC, #B182E8
 //  );
 //  background-repeat:no-repeat;
 
   h1, h2, h3, h4, h5 {
-      font-family: $bubbler-font;
+    font-family: 'Josefin Sans', sans-serif;
+
+//      font-family: $bubbler-font;
 //      text-align: center;
       font-style: 18px;
   }
+}
+
+#navbar-brand{
+    text-align:center;
+    float: none;
+
 }
 
 img {
   margin-left: auto;
   margin-right: auto;
 
+}
+
+#second-home-display {
+  margin-top: 25px;
 }
 
 .img-rounded {

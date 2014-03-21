@@ -5,7 +5,8 @@
 <html>
 <head>
     {#  main resources  #}
-    <link href='http://fonts.googleapis.com/css?family=Bubbler+One' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
+{#    <link href='http://fonts.googleapis.com/css?family=Bubbler+One' rel='stylesheet' type='text/css'>#}
     <title>{% block title %}cine{% endblock %}</title>
     <script src="{% static 'js/main.js' %}"></script>
 
@@ -41,20 +42,21 @@
 
 {# Navbar #}
 <div class="navbar navbar-default" role="navigation">
-    <a class="navbar-brand" href="#"><img src="/static/img/cine-new.png"></a>
+    <div id="navbar-brand">
+        <a class="brand" href="#"><img src="/static/img/cine-new.png"></a>
     <div class="container-fluid navbar-right" id="angular-header">
-    {% block header %}
-        <a href="{% url 'index' %}">{% trans "Home" %}</a> |
+        {% block header %}
+            <a href="{% url 'index' %}">{% trans "Home" %}</a> |
 
-        {% if user.is_authenticated %}
-            {% trans "Hey" %}: {{ user.first_name }}
-            (<a href="{% url 'auth_logout' %}">{% trans "Log out" %}</a> |
-            <a href="{% url 'auth_password_change' %}">{% trans "Change password" %}</a>)
-        {% else %}
-
-            <a href="{% url 'auth_login' %}">{% trans "Log in" %}</a>
-        {% endif %}
-    {% endblock %}
+            {% if user.is_authenticated %}
+                {% trans "Hey" %}: {{ user.first_name }}
+                (<a href="{% url 'auth_logout' %}">{% trans "Log out" %}</a> |
+                <a href="{% url 'auth_password_change' %}">{% trans "Change password" %}</a>)
+            {% else %}
+                <a href="{% url 'auth_login' %}">{% trans "Log in" %}</a>
+            {% endif %}
+        {% endblock %}
+        </div>
     </div>
 </div>
 
