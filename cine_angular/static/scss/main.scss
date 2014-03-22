@@ -53,5 +53,7 @@ img {
 @media (max-width: 620px) {
   h1,h2, h3, h4, h5 {
     text-align: center;
-  }
+  } img, p {
+    text-align: center;
+      }
 }
