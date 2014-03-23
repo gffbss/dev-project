@@ -1,169 +1,110 @@
-@import url(http://fonts.googleapis.com/css?family=Bree+Serif);
-* {
-  box-sizing: border-box; }
-
 body {
-  background-color: #fff; }
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  background-color: #f5f5f5; }
 
-h1 {
-  margin: 0 auto 5px;
-  text-align: center; }
+.row {
+  width: 1024px;
+  margin: 30px auto; }
 
-h3 {
-  font-family: 'Bree Serif', serif; }
-
-.container {
-  width: 840px;
-  margin: 0 auto; }
-
-header {
-  font-family: 'Bree Serif', serif;
-  text-align: center;
-  margin: 50px 0 25px;
-  color: #34495e; }
-  header p {
-    margin: 0;
-    color: rgba(52, 73, 94, 0.4); }
-
-ul {
-  padding: 0;
-  margin: 0 0 50px; }
-  ul:after {
-    content: ".";
-    display: block;
-    clear: both;
-    visibility: hidden;
-    line-height: 0;
-    height: 0; }
-
-li {
-  position: relative;
-  overflow: hidden;
-  border-radius: 4px;
-  list-style: none;
-  float: left;
-  width: 200px;
-  height: 180px;
-  margin: 5px;
-  padding: 0;
-  perspective: 500px; }
-  li a {
-    display: inline-block;
-    vertical-align: top;
-    text-decoration: none;
-    border-radius: 4px; }
-  li h3 {
-    margin: 0;
-    font-size: 16px;
-    color: rgba(255, 255, 255, 0.9); }
-  li p {
-    font-size: 12px;
-    line-height: 1.5;
-    color: rgba(255, 255, 255, 0.8); }
-  li .normal {
-    width: 100%;
-    height: 100%;
-    background-color: #ecf0f1;
-    color: rgba(52, 73, 94, 0.6);
-    box-shadow: inset 0 2px 20px #e6ebed;
+/* Mighty Hover
+ * -------------------------- */
+ul.items {
+  width: 100%;
+  display: table; }
+  ul.items li {
+    float: left;
+    width: 31.33%;
     text-align: center;
-    font-size: 50px;
-    line-height: 180px; }
-    li .normal svg {
-      pointer-events: none;
-      width: 50px; }
-      li .normal svg path {
-        fill: rgba(52, 73, 94, 0.2); }
-  li .info {
-    width: 100%;
-    height: 100%;
-    padding: 20px;
+    margin-right: 3%;
+    display: block; }
+    ul.items li figure {
+      position: relative;
+      overflow: hidden;
+      background: #87d3b7;
+      text-align: center;
+      border-bottom: 2px solid #87d3b7;
+      width: 100%; }
+      ul.items li figure img {
+        width: 100%;
+        -webkit-transition: -webkit-transform 0.3s ease-out, opacity 0.3s;
+        transition: transform 0.3s ease-out, opacity 0.3s;
+        -moz-transition: -moz-transform 0.3s ease-out, opacity 0.3s;
+        -ms-transition: -ms-transform 0.3s ease-out, opacity 0.3s; }
+    ul.items li a {
+      display: block;
+      width: 100%;
+      height: 100%; }
+      ul.items li a:hover .description {
+        -webkit-transform: translate(0, 0);
+        -moz-transform: translate(0, 0);
+        transform: translate(0, 0); }
+      ul.items li a:hover .title {
+        -webkit-transform: translate(0, -73px);
+        -moz-transform: translate(0, -73px);
+        transform: translate(0, -73px); }
+      ul.items li a:hover img {
+        opacity: 0.3;
+        -webkit-transform: translate(0, -30px);
+        -moz-transform: translate(0, -30px);
+        transform: translate(0, -30px); }
+    ul.items li:last-of-type {
+      margin-right: 0px; }
+
+h1.title {
+  display: table-cell;
+  width: 100%;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #87d3b7;
+  line-height: 2.7;
+  text-align: center;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+  background: #ffffff;
+  padding: 0 10px;
+  display: block;
+  -webkit-transition: -webkit-transform 0.4s, color 0.3s;
+  -moz-transition: -moz-transform 0.4s, color 0.3s;
+  transition: transform 0.4s, color 0.3s;
+  border-top: 2px solid #87d3b7; }
+  h1.title:after {
+    content: '';
     position: absolute;
-    top: 0;
+    top: 100%;
     left: 0;
+    right: 0;
+    height: 100px;
+    background: #ffffff;
+    width: 100%; }
+
+.description {
+  display: table-cell;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  -webkit-transform: translate(0, 100%);
+  -moz-transform: translate(0, 100%);
+  transform: translate(0, 100%);
+  z-index: 4;
+  -webkit-transition: -webkit-transform 0.25s;
+  -moz-transition: -moz-transform 0.25s;
+  transition: transform 0.25s; }
+  .description p {
+    display: block;
+    height: 80px;
     overflow: hidden;
-    border-radius: 4px;
-    pointer-events: none;
-    background-color: rgba(26, 188, 156, 0.9);
-    transform: rotate3d(1, 0, 0, 90deg); }
-
-.in-top .info {
-  transform-origin: 50% 0%;
-  animation: in-top 300ms ease 0ms 1 forwards; }
-
-.in-right .info {
-  transform-origin: 100% 0%;
-  animation: in-right 300ms ease 0ms 1 forwards; }
-
-.in-bottom .info {
-  transform-origin: 50% 100%;
-  animation: in-bottom 300ms ease 0ms 1 forwards; }
-
-.in-left .info {
-  transform-origin: 0% 0%;
-  animation: in-left 300ms ease 0ms 1 forwards; }
-
-.out-top .info {
-  transform-origin: 50% 0%;
-  animation: out-top 300ms ease 0ms 1 forwards; }
-
-.out-right .info {
-  transform-origin: 100% 50%;
-  animation: out-right 300ms ease 0ms 1 forwards; }
-
-.out-bottom .info {
-  transform-origin: 50% 100%;
-  animation: out-bottom 300ms ease 0ms 1 forwards; }
-
-.out-left .info {
-  transform-origin: 0% 0%;
-  animation: out-left 300ms ease 0ms 1 forwards; }
-
-@keyframes in-top {
-  from {
-    transform: rotate3d(-1, 0, 0, 90deg); }
-
-  to {
-    transform: rotate3d(0, 0, 0, 0deg); } }
-@keyframes in-right {
-  from {
-    transform: rotate3d(0, -1, 0, 90deg); }
-
-  to {
-    transform: rotate3d(0, 0, 0, 0deg); } }
-@keyframes in-bottom {
-  from {
-    transform: rotate3d(1, 0, 0, 90deg); }
-
-  to {
-    transform: rotate3d(0, 0, 0, 0deg); } }
-@keyframes in-left {
-  from {
-    transform: rotate3d(0, 1, 0, 90deg); }
-
-  to {
-    transform: rotate3d(0, 0, 0, 0deg); } }
-@keyframes out-top {
-  from {
-    transform: rotate3d(0, 0, 0, 0deg); }
-
-  to {
-    transform: rotate3d(-1, 0, 0, 102deg); } }
-@keyframes out-right {
-  from {
-    transform: rotate3d(0, 0, 0, 0deg); }
-
-  to {
-    transform: rotate3d(0, -1, 0, 102deg); } }
-@keyframes out-bottom {
-  from {
-    transform: rotate3d(0, 0, 0, 0deg); }
-
-  to {
-    transform: rotate3d(1, 0, 0, 101deg); } }
-@keyframes out-left {
-  from {
-    transform: rotate3d(0, 0, 0, 0deg); }
-
-  to {
-    transform: rotate3d(0, 1, 0, 102deg); } }
+    color: #a8a8a8;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.3;
+    padding: 0 7px; }

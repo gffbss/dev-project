@@ -8,6 +8,8 @@ import requests
 def angular(request):
     return render(request, "base-angular.html")
 
+def testHover(request):
+    return render(request, "hover-choice.html")
 
 def get_apple_link(request):
     movie_title = request.GET.get('movie_title')

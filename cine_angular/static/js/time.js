@@ -4,11 +4,20 @@
 
 function getTime() {
     ourDate = new Date();
-    document.write("The time and date at your computer's location is: "
-        + ourDate.toLocaleString()
-        + ".<br/>");
-    document.write("The time and date (GMT) is: "
-        + ourDate.toGMTString()
-        + ".<br/>");
+
+    console.log(ourDate);
+    if (ourDate >= 0 && ourDate < 12){
+        console.log('Good Morning');
+    }
+    else if (ourDate >= 12 || ourDate <= 17 ){
+        console.log('Good Afternoon');
+    }
+    else if (ourDate > 17) {
+        console.log('Good Evening');
+    } else {
+        console.log('Welcome')
+    }
 
 }
+
+console.log(getTime());

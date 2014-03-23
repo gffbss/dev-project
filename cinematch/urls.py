@@ -35,6 +35,7 @@ urlpatterns = patterns('',
 
     # Angular urls
     url(r'^moods/$', 'cine_angular.views.angular', name="angular"),
+    url(r'^choice-hover/$', 'cine_angular.views.testHover', name="test_hover"),
 
     # Ajax test urls
     url(r'^choices/$', 'cinema.views.choice_change_ajax', name='choice_change_ajax'),
