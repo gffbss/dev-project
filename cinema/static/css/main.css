@@ -16,9 +16,21 @@ body {
 
 }
 
-/*.header {*/
-    /*background-color: darkgrey;*/
-/*}*/
+#container {
+    background: radial-gradient();
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+}
+
+section.rainbowbreak h1 {
+	color: #fff;
+	font-weight: 100;
+	text-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+	font-size: 6em;
+	letter-spacing: 5px;
+	line-height: 3;
+	text-align: center;
+	font-family: lato, helvetica, sans-serif;
+}
 
 a {
     text-decoration: none;
