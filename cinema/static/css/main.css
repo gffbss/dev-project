@@ -78,4 +78,23 @@ img {
 
 }
 
+/* fade */
+.row {
+  -webkit-animation: fadein 2s;
+  -moz-animation: fadein 2s;
+  animation: fadein 2s;
+}
+@-webkit-keyframes fadein {
+  from { opacity:0; }
+  to { opacity:1; }
+}
+@-moz-keyframes fadein {
+  from { opacity:0; }
+  to { opacity:1; }
+}
+@keyframes fadein {
+  from { opacity:0; }
+  to { opacity:1; }
+}
+
 
