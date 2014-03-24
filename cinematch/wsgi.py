@@ -25,8 +25,14 @@ os.environ.setdefault("DJANGO_SETTINGS_MODULE", "cinematch.settings")
 # file. This includes Django's development server, if the WSGI_APPLICATION
 # setting points here.
 from django.core.wsgi import get_wsgi_application
-application = get_wsgi_application()
+# application = get_wsgi_application() I UNCOMMENTED THIS BECAUSE I PLACED THE HEROKU SETUP THERE
 
 # Apply WSGI middleware here.
 # from helloworld.wsgi import HelloWorldApplication
 # application = HelloWorldApplication(application)
+
+# Heroku shit.....
+from django.core.wsgi import get_wsgi_application
+from dj_static import Cling
+
+application = Cling(get_wsgi_application())
