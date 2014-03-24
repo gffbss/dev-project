@@ -16,6 +16,11 @@ body {
 
 }
 
+.img-rounded {
+  -webkit-box-shadow: 3px 3px 3px #7C7C7C;
+  box-shadow: 3px 3px 3px #7C7C7C;
+}
+
 #container {
     background: radial-gradient();
     text-shadow: 1px 1px 5px rgba(0,0,0,0.1);
