@@ -27,34 +27,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="choice.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cine_angular/static/views/choice.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="6" selection-start="2390" selection-end="2390" vertical-scroll-proportion="-27.5" vertical-offset="300" max-vertical-offset="1095">
-              <folding>
-                <marker date="1395611124000" expanded="true" signature="74:263" placeholder="..." />
-                <marker date="1395611124000" expanded="true" signature="112:256" placeholder="..." />
-                <marker date="1395611124000" expanded="true" signature="282:930" placeholder="..." />
-                <marker date="1395611124000" expanded="true" signature="328:922" placeholder="..." />
-                <marker date="1395611124000" expanded="true" signature="1053:2389" placeholder="..." />
-                <marker date="1395611124000" expanded="true" signature="1073:2382" placeholder="..." />
-                <marker date="1395611124000" expanded="true" signature="1080:1513" placeholder="..." />
-                <marker date="1395611124000" expanded="true" signature="1096:1505" placeholder="..." />
-                <marker date="1395611124000" expanded="true" signature="1109:1497" placeholder="..." />
-                <marker date="1395611124000" expanded="true" signature="1287:1483" placeholder="..." />
-                <marker date="1395611124000" expanded="true" signature="1520:1943" placeholder="..." />
-                <marker date="1395611124000" expanded="true" signature="1536:1935" placeholder="..." />
-                <marker date="1395611124000" expanded="true" signature="1549:1927" placeholder="..." />
-                <marker date="1395611124000" expanded="true" signature="1717:1913" placeholder="..." />
-                <marker date="1395611124000" expanded="true" signature="1950:2375" placeholder="..." />
-                <marker date="1395611124000" expanded="true" signature="1966:2367" placeholder="..." />
-                <marker date="1395611124000" expanded="true" signature="1979:2359" placeholder="..." />
-                <marker date="1395611124000" expanded="true" signature="2149:2345" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="hover-choice.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cine_angular/templates/hover-choice.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -67,7 +39,16 @@
       <file leaf-file-name="moods-hover.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cine_angular/static/views/moods-hover.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="52" selection-start="257" selection-end="257" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="690">
+            <state line="39" column="10" selection-start="1566" selection-end="1566" vertical-scroll-proportion="-16.375" vertical-offset="192" max-vertical-offset="690">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="moods.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cine_angular/static/views/moods.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="57" selection-start="262" selection-end="262" vertical-scroll-proportion="-4.25" vertical-offset="3" max-vertical-offset="690">
               <folding />
             </state>
           </provider>
@@ -76,7 +57,34 @@
       <file leaf-file-name="hover.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cine_angular/static/scss/hover.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="296" selection-end="296" vertical-scroll-proportion="-4.2083335" vertical-offset="124" max-vertical-offset="585">
+            <state line="36" column="0" selection-start="630" selection-end="630" vertical-scroll-proportion="-22.5" vertical-offset="0" max-vertical-offset="630">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base-angular.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cine_angular/templates/base-angular.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="53" selection-start="414" selection-end="414" vertical-scroll-proportion="-0.9931507" vertical-offset="585" max-vertical-offset="1425">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cinema/static/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="47" selection-start="370" selection-end="370" vertical-scroll-proportion="0.0" vertical-offset="123" max-vertical-offset="585">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cinema/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="47" selection-start="345" selection-end="452" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="900">
               <folding />
             </state>
           </provider>
@@ -85,25 +93,16 @@
       <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cinema/static/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="97" column="1" selection-start="1600" selection-end="1600" vertical-scroll-proportion="0.0" vertical-offset="1000" max-vertical-offset="1590">
+            <state line="5" column="9" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1590">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cinema/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="155" selection-end="155" vertical-scroll-proportion="0.22776572" vertical-offset="0" max-vertical-offset="840">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cine_angular/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="47" selection-start="293" selection-end="293" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+            <state line="7" column="0" selection-start="155" selection-end="155" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="840">
               <folding />
             </state>
           </provider>
@@ -143,7 +142,6 @@
         <option value="$PROJECT_DIR$/cine_angular/static/js/controllers/sick.js" />
         <option value="$PROJECT_DIR$/cine_angular/static/js/controllers/choice.js" />
         <option value="$PROJECT_DIR$/cine_angular/static/js/controllers/exploring.js" />
-        <option value="$PROJECT_DIR$/cine_angular/static/views/moods.html" />
         <option value="$PROJECT_DIR$/cine_angular/static/views/best/bestday_choice_1.html" />
         <option value="$PROJECT_DIR$/cine_angular/static/views/date/date_choice_1.html" />
         <option value="$PROJECT_DIR$/cine_angular/static/views/explore/exploring_choice_1.html" />
@@ -176,9 +174,10 @@
         <option value="$PROJECT_DIR$/cine_angular/views.py" />
         <option value="$PROJECT_DIR$/cine_angular/templates/hover-choice.html" />
         <option value="$PROJECT_DIR$/cine_angular/static/js/app.js" />
+        <option value="$PROJECT_DIR$/cinema/static/css/main.css" />
+        <option value="$PROJECT_DIR$/cine_angular/static/views/moods.html" />
         <option value="$PROJECT_DIR$/cine_angular/static/views/moods-hover.html" />
         <option value="$PROJECT_DIR$/cine_angular/static/scss/hover.scss" />
-        <option value="$PROJECT_DIR$/cinema/static/css/main.css" />
       </list>
     </option>
   </component>
@@ -293,6 +292,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dev-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dev-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cinema" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1010,13 +1031,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cinema/static/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="492" selection-end="492" vertical-scroll-proportion="0.6597938" vertical-offset="10" max-vertical-offset="585">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cinema/static/js/fade.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="0" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="855">
@@ -1088,42 +1102,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cine_angular/static/views/moods.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="0" selection-end="1543" vertical-scroll-proportion="0.44685465" vertical-offset="229" max-vertical-offset="690">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cinema/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="931" selection-end="931" vertical-scroll-proportion="0.6182213" vertical-offset="0" max-vertical-offset="900">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cine_angular/static/views/choice.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="64" column="6" selection-start="2390" selection-end="2390" vertical-scroll-proportion="-27.5" vertical-offset="300" max-vertical-offset="1095">
           <folding>
-            <marker date="1395611124000" expanded="true" signature="74:263" placeholder="..." />
-            <marker date="1395611124000" expanded="true" signature="112:256" placeholder="..." />
-            <marker date="1395611124000" expanded="true" signature="282:930" placeholder="..." />
-            <marker date="1395611124000" expanded="true" signature="328:922" placeholder="..." />
-            <marker date="1395611124000" expanded="true" signature="1053:2389" placeholder="..." />
-            <marker date="1395611124000" expanded="true" signature="1073:2382" placeholder="..." />
-            <marker date="1395611124000" expanded="true" signature="1080:1513" placeholder="..." />
-            <marker date="1395611124000" expanded="true" signature="1096:1505" placeholder="..." />
-            <marker date="1395611124000" expanded="true" signature="1109:1497" placeholder="..." />
-            <marker date="1395611124000" expanded="true" signature="1287:1483" placeholder="..." />
-            <marker date="1395611124000" expanded="true" signature="1520:1943" placeholder="..." />
-            <marker date="1395611124000" expanded="true" signature="1536:1935" placeholder="..." />
-            <marker date="1395611124000" expanded="true" signature="1549:1927" placeholder="..." />
-            <marker date="1395611124000" expanded="true" signature="1717:1913" placeholder="..." />
-            <marker date="1395611124000" expanded="true" signature="1950:2375" placeholder="..." />
-            <marker date="1395611124000" expanded="true" signature="1966:2367" placeholder="..." />
-            <marker date="1395611124000" expanded="true" signature="1979:2359" placeholder="..." />
-            <marker date="1395611124000" expanded="true" signature="2149:2345" placeholder="..." />
+            <marker date="1395611124000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1395611124000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1395611124000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1395611124000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1395611124000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1395611124000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1395611124000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1395611124000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1395611124000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1395611124000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1395611124000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1395611124000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1395611124000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1395611124000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1395611124000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1395611124000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1395611124000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1395611124000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1131,13 +1131,6 @@
     <entry file="file://$PROJECT_DIR$/cine_angular/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="47" selection-start="293" selection-end="293" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cine_angular/templates/base-angular.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="53" selection-start="414" selection-end="414" vertical-scroll-proportion="-0.87852496" vertical-offset="555" max-vertical-offset="1425">
           <folding />
         </state>
       </provider>
@@ -1163,30 +1156,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cinema/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="155" selection-end="155" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="840">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cine_angular/static/views/moods.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="57" selection-start="262" selection-end="262" vertical-scroll-proportion="-4.25" vertical-offset="3" max-vertical-offset="690">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cine_angular/static/views/moods-hover.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="52" selection-start="257" selection-end="257" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="690">
+        <state line="39" column="10" selection-start="1566" selection-end="1566" vertical-scroll-proportion="-16.375" vertical-offset="192" max-vertical-offset="690">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cinema/static/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="47" selection-start="370" selection-end="370" vertical-scroll-proportion="0.0" vertical-offset="123" max-vertical-offset="585">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cinema/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="47" selection-start="345" selection-end="452" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="900">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cine_angular/static/scss/hover.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="296" selection-end="296" vertical-scroll-proportion="-4.2083335" vertical-offset="124" max-vertical-offset="585">
+        <state line="36" column="0" selection-start="630" selection-end="630" vertical-scroll-proportion="-22.5" vertical-offset="0" max-vertical-offset="630">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cinema/static/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="1" selection-start="1600" selection-end="1600" vertical-scroll-proportion="0.0" vertical-offset="1000" max-vertical-offset="1590">
+        <state line="5" column="9" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1590">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cinema/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/cine_angular/templates/base-angular.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="155" selection-end="155" vertical-scroll-proportion="0.22776572" vertical-offset="0" max-vertical-offset="840">
+        <state line="10" column="53" selection-start="414" selection-end="414" vertical-scroll-proportion="-0.9931507" vertical-offset="585" max-vertical-offset="1425">
           <folding />
         </state>
       </provider>
