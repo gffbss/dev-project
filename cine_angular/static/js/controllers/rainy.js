@@ -20,8 +20,8 @@ function RainyCtrl($scope, $http) {
     // $http would be like a library we are calling just like python
     // the genre={{db-id}} accepts the id associated with the genre. See .txt file
 
-    // For choice 1 ~ 13 == Film Noir
-    $http.get('/api/v1/movie/?genre=13&format=json&limit=999').
+    // For choice 1 ~ 18 == Film Noir
+    $http.get('/api/v1/movie/?genre=18&format=json&limit=999').
         success(function(movies){
             // we need to be specific with our movies.objects which will give us the specific data. If
             // if was just movies it would be the entire json object and would not be iterable
@@ -41,8 +41,8 @@ function RainyCtrl($scope, $http) {
             });
     });
 
-    // For choice 2 ~ 12 == Fantasy
-    $http.get('/api/v1/movie/?genre=12&format=json&limit=999').
+    // For choice 2 ~ 19 == Fantasy
+    $http.get('/api/v1/movie/?genre=19&format=json&limit=999').
         success(function(fantasy_movies){
             // we need to be specific with our movies.objects which will give us the specific data. If
             // if was just movies it would be the entire json object and would not be iterable
@@ -60,8 +60,8 @@ function RainyCtrl($scope, $http) {
             });
     });
 
-    // For choice 3 ~ 21 == Mystery
-    $http.get('/api/v1/movie/?genre=21&format=json&limit=999').
+    // For choice 3 ~ 10 == Mystery
+    $http.get('/api/v1/movie/?genre=10&format=json&limit=999').
         success(function(mystery_movies){
             // we need to be specific with our movies.objects which will give us the specific data. If
             // if was just movies it would be the entire json object and would not be iterable

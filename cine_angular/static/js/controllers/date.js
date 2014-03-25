@@ -9,8 +9,8 @@ function DateCtrl($scope, $http) {
     // $http would be like a library we are calling just like python
     // the genre={{db-id}} accepts the id associated with the genre. See .txt file
 
-    // For choice 1 ~ 24 ==  Romance
-    $http.get('/api/v1/movie/?genre=24&format=json&limit=999').
+    // For choice 1 ~ 7 ==  Romance
+    $http.get('/api/v1/movie/?genre=7&format=json&limit=999').
         success(function(movies){
             // we need to be specific with our movies.objects which will give us the specific data. If
             // if was just movies it would be the entire json object and would not be iterable
@@ -28,8 +28,8 @@ function DateCtrl($scope, $http) {
             });
     });
 
-    // For choice 2 ~ 16 == HORROR!
-    $http.get('/api/v1/movie/?genre=16&format=json&limit=999').
+    // For choice 2 ~ 15 == HORROR!
+    $http.get('/api/v1/movie/?genre=15&format=json&limit=999').
         success(function(horror_movies){
             // we need to be specific with our movies.objects which will give us the specific data. If
             // if was just movies it would be the entire json object and would not be iterable
@@ -46,8 +46,8 @@ function DateCtrl($scope, $http) {
             });
     });
 
-    // For choice 3 ~ 2 == Drama
-    $http.get('/api/v1/movie/?genre=2&format=json&limit=999').
+    // For choice 3 ~ 29 == Drama
+    $http.get('/api/v1/movie/?genre=29&format=json&limit=999').
         success(function(drama_movies){
             // we need to be specific with our movies.objects which will give us the specific data. If
             // if was just movies it would be the entire json object and would not be iterable
