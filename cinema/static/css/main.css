@@ -89,6 +89,10 @@ img {
 
 }
 
+#footer-padding{
+    padding-left: 10px;
+}
+
 /* fade */
 .row {
   -webkit-animation: fadein 2s;
