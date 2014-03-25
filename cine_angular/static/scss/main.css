@@ -33,4 +33,10 @@ img {
     text-align: center; }
 
   img, p {
-    text-align: center; } }
+    text-align: center; }
+
+  img {
+    width:100%;
+    max-width:220px;
+  }
+}
