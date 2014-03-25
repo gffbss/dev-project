@@ -59,7 +59,7 @@
       <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cine_angular/static/scss/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="3" selection-start="716" selection-end="716" vertical-scroll-proportion="0.795756" vertical-offset="0" max-vertical-offset="754">
+            <state line="36" column="25" selection-start="686" selection-end="686" vertical-scroll-proportion="0.6220159" vertical-offset="71" max-vertical-offset="855">
               <folding />
             </state>
           </provider>
@@ -148,7 +148,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="17" />
+    <option name="x" value="576" />
     <option name="y" value="22" />
     <option name="width" value="1402" />
     <option name="height" value="874" />
@@ -334,28 +334,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dev-project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dev-project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cine_angular" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -666,7 +644,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="17" y="22" width="1402" height="874" extended-state="0" />
+    <frame x="576" y="22" width="1402" height="874" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1043,7 +1021,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cine_angular/static/scss/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="3" selection-start="716" selection-end="716" vertical-scroll-proportion="0.795756" vertical-offset="0" max-vertical-offset="754">
+        <state line="36" column="25" selection-start="686" selection-end="686" vertical-scroll-proportion="0.6220159" vertical-offset="71" max-vertical-offset="855">
           <folding />
         </state>
       </provider>

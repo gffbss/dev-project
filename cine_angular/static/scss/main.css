@@ -2,7 +2,7 @@ body {
   font-family: 'Josefin Sans', sans-serif; }
   body h1, body h2, body h3, body h4, body h5 {
     font-family: 'Josefin Sans', sans-serif;
-    font-style: 18px; }
+    font-size: 18px; }
 
 #navbar-brand {
   text-align: center;
@@ -30,7 +30,17 @@ img {
 
 @media (max-width: 620px) {
   h1, h2, h3, h4, h5 {
+    text-align: center;
+    font-size: 18px; }
+
+  img, p {
     text-align: center; }
+}
+
+@media only screen and (max-device-width: 480px) {
+  h1, h2, h3, h4, h5 {
+    text-align: center;
+    font-size: 18px; }
 
   img, p {
     text-align: center; }
