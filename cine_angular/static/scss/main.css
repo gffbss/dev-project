@@ -2,7 +2,7 @@ body {
   font-family: 'Josefin Sans', sans-serif; }
   body h1, body h2, body h3, body h4, body h5 {
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 18px; }
+    /*font-size: 18px; }*/
 
 #navbar-brand {
   text-align: center;
