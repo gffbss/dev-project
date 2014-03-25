@@ -10,34 +10,62 @@ function IndexCtrl($scope, $http) {
     // in the html do an ng show
 
     function getTime() {
-    ourDate = new Date();
-    ourTime = ourDate.getHours()
-    $scope.time = 'Hello';
+        ourDate = new Date();
+        ourTime = ourDate.getHours()
+        $scope.time = 'Hello';
 
-    console.log(ourTime);
-    if (ourTime >= 0 && ourTime < 12){
-            $scope.time = 'Good Morning';
-        console.log($scope.time);
-    }
-    else if (ourTime >= 12 && ourTime < 17 ){
-        $scope.time = 'Good Afternoon';
-        console.log($scope.time);
-    }
-    else if (ourTime > 17) {
-        $scope.time = 'Good Evening';
-        console.log($scope.time);
-    } else {
-        $scope.time = 'Welcome';
-        console.log('Welcome')
-    }
-
+        if (ourTime >= 0 && ourTime < 12) {
+            $scope.time = 'Morning';
+            console.log($scope.time);
+        }
+        else if (ourTime >= 12 && ourTime < 17) {
+            $scope.time = 'Afternoon';
+            console.log($scope.time);
+        }
+        else if (ourTime > 17) {
+            $scope.time = 'Evening';
+            console.log($scope.time);
+        } else {
+            $scope.time = 'Welcome';
+            console.log('Welcome')
+        }
 
 
 //    $scope.current_time = getTime();
 
-}
+    }
 
     getTime();
 
+
+    function getToday() {
+        theDate = new Date();
+        today = theDate.getDay();
+        $scope.day = '';
+
+        if (today = 0) {
+            $scope.day = "It's Monday"
+        }
+        else if (today = 1) {
+            $scope.day = "It's Tuesday"
+        }
+        else if (today = 2){
+            $scope.day = "It's Wednesday"
+        }
+        else if (today = 3){
+            $scope.day = "It's Thursday"
+        }
+        else if (today = 4){
+            $scope.day = "It's Friday"
+        }
+        else if (today = 5){
+            $scope.day = "It's Saturday"
+        }
+        else if (today = 6){
+            $scope.day = "It's Sunday"
+        }
+    }
+
+    getToday();
 
 }
