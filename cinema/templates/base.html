@@ -23,10 +23,10 @@
 <div class="navbar navbar-default" role="navigation">
     <div id="navbar-brand">
             <a class="navbar" href="#"><img src="/static/img/cine_simple.png"></a>
-        <div class="container-fluid navbar-right" id="header">
+        <div class="container-fluid navbar-left" id="header">
             {% block header %}
                 <a href="{% url 'index' %}">{% trans "Home" %}</a> |
-
+            <div class="container-fluid navbar-right" id="header">
                 {% if user.is_authenticated %}
                     {% trans "Hey" %}: {{ user.first_name }}
                     (<a href="{% url 'auth_logout' %}">{% trans "Log out" %}</a> |
@@ -35,6 +35,7 @@
 
                     <a href="{% url 'auth_login' %}">{% trans "Log in" %}</a>
                 {% endif %}
+            </div>
             {% endblock %}
         </div>
     </div>
