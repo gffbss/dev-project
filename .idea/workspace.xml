@@ -36,19 +36,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rain_choice_1.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cine_angular/static/views/rain/rain_choice_1.html">
+      <file leaf-file-name="main.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cine_angular/static/scss/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="1066" selection-end="1066" vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="390">
+            <state line="40" column="22" selection-start="633" selection-end="633" vertical-scroll-proportion="-18.75" vertical-offset="150" max-vertical-offset="1035">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cine_angular/static/scss/main.scss">
+      <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cinema/static/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="404" selection-end="404" vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="990">
+            <state line="21" column="22" selection-start="378" selection-end="378" vertical-scroll-proportion="0.3132695" vertical-offset="86" max-vertical-offset="1710">
               <folding />
             </state>
           </provider>
@@ -99,10 +99,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cinema/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="26" selection-start="133" selection-end="133" vertical-scroll-proportion="0.12729844" vertical-offset="0" max-vertical-offset="840">
+            <state line="6" column="26" selection-start="133" selection-end="133" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="840">
               <folding />
             </state>
           </provider>
@@ -153,7 +153,6 @@
         <option value="$PROJECT_DIR$/cine_angular/static/js/app.js" />
         <option value="$PROJECT_DIR$/cine_angular/static/views/moods-hover.html" />
         <option value="$PROJECT_DIR$/cine_angular/static/scss/hover.scss" />
-        <option value="$PROJECT_DIR$/cinema/static/css/main.css" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/cinematch/wsgi.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
@@ -172,7 +171,6 @@
         <option value="$PROJECT_DIR$/cine_angular/static/js/controllers/best_day.js" />
         <option value="$PROJECT_DIR$/cine_angular/static/js/controllers/exploring.js" />
         <option value="$PROJECT_DIR$/cine_angular/static/js/controllers/sick.js" />
-        <option value="$PROJECT_DIR$/cine_angular/static/scss/main.scss" />
         <option value="$PROJECT_DIR$/cine_angular/static/scss/main.css" />
         <option value="$PROJECT_DIR$/cine_angular/static/js/time.js" />
         <option value="$PROJECT_DIR$/cine_angular/templates/base-angular.html" />
@@ -180,6 +178,8 @@
         <option value="$PROJECT_DIR$/cine_angular/static/js/controllers/index.js" />
         <option value="$PROJECT_DIR$/cine_angular/static/views/moods.html" />
         <option value="$PROJECT_DIR$/cinema/templates/index.html" />
+        <option value="$PROJECT_DIR$/cine_angular/static/scss/main.scss" />
+        <option value="$PROJECT_DIR$/cinema/static/css/main.css" />
       </list>
     </option>
   </component>
@@ -798,7 +798,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="28" y="22" width="1402" height="874" extended-state="1" />
+    <frame x="28" y="22" width="1402" height="874" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1099,13 +1099,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cinema/static/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="21" selection-start="0" selection-end="1699" vertical-scroll-proportion="-0.21352786" vertical-offset="911" max-vertical-offset="1665">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cine_angular/static/views/choice.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="64" column="6" selection-start="2390" selection-end="2390" vertical-scroll-proportion="1.3389121" vertical-offset="0" max-vertical-offset="1095">
@@ -1123,13 +1116,6 @@
     <entry file="file://$PROJECT_DIR$/cinematch/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="43" selection-start="228" selection-end="233" vertical-scroll-proportion="0.25862068" vertical-offset="0" max-vertical-offset="3180">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cine_angular/static/scss/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="404" selection-end="404" vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="990">
           <folding />
         </state>
       </provider>
@@ -1201,7 +1187,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cinema/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="26" selection-start="133" selection-end="133" vertical-scroll-proportion="0.12729844" vertical-offset="0" max-vertical-offset="840">
+        <state line="6" column="26" selection-start="133" selection-end="133" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="840">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cine_angular/static/scss/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="22" selection-start="633" selection-end="633" vertical-scroll-proportion="-18.75" vertical-offset="150" max-vertical-offset="1035">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cinema/static/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="22" selection-start="378" selection-end="378" vertical-scroll-proportion="0.3132695" vertical-offset="86" max-vertical-offset="1710">
           <folding />
         </state>
       </provider>

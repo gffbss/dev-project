@@ -1,4 +1,3 @@
-/* Cine Angular Main */
 body {
   font-family: 'Josefin Sans', sans-serif; }
   body h1, body h2, body h3, body h4, body h5 {
@@ -9,12 +8,6 @@ body {
   text-align: center;
   float: none; }
 
-#main-poster {
-  height: 350px;
-  width: 275px;
-  margin-left: auto;
-  margin-right: auto; }
-
 img {
   margin-left: auto;
   margin-right: auto; }
@@ -23,8 +16,17 @@ img {
   margin-top: 35px; }
 
 .img-rounded {
+  height: 275px;
+  width: 275px;
+  border-radius: 16px;
   -webkit-box-shadow: 3px 3px 3px #7C7C7C;
   box-shadow: 3px 3px 3px #7C7C7C; }
+
+#main-poster {
+  height: 350px;
+  width: 275px;
+  margin-left: auto;
+  margin-right: auto; }
 
 #mood-main {
   text-align: center; }
