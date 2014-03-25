@@ -4,11 +4,40 @@
 
 // basically a js function that we want to do stuff for us. every controller will have $scope as the initial argument
 function IndexCtrl($scope, $http) {
-    // $http would be like a library we are calling just like python
-    $http.get('/api/v1/movie/?format=json').
-        success(function(movies){
-            // we need to be specific with our movies.objects which will give us the specific data. If
-            // if was just movies it would be the entire json object and would not be iterable
-            $scope.movies = movies.objects;
-    });
+//    $scope.time_info = getTime();
+
+    // set some scope variables equal to the greetings and then do a few scope.afternoon = true, and then
+    // in the html do an ng show
+
+    function getTime() {
+    ourDate = new Date();
+    ourTime = ourDate.getHours()
+    $scope.time = 'Hello';
+
+    console.log(ourTime);
+    if (ourTime >= 0 && ourTime < 12){
+            $scope.time = 'Good Morning';
+        console.log($scope.time);
+    }
+    else if (ourTime >= 12 && ourTime < 17 ){
+        $scope.time = 'Good Afternoon';
+        console.log($scope.time);
+    }
+    else if (ourTime > 17) {
+        $scope.time = 'Good Evening';
+        console.log($scope.time);
+    } else {
+        $scope.time = 'Welcome';
+        console.log('Welcome')
+    }
+
+
+
+//    $scope.current_time = getTime();
+
+}
+
+    getTime();
+
+
 }
