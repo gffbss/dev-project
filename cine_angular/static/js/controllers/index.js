@@ -4,10 +4,7 @@
 
 // basically a js function that we want to do stuff for us. every controller will have $scope as the initial argument
 function IndexCtrl($scope, $http) {
-//    $scope.time_info = getTime();
-
-    // set some scope variables equal to the greetings and then do a few scope.afternoon = true, and then
-    // in the html do an ng show
+    // Gets the time on a 24 hr clock
 
     function getTime() {
         ourDate = new Date();
@@ -16,28 +13,21 @@ function IndexCtrl($scope, $http) {
 
         if (ourTime >= 0 && ourTime < 12) {
             $scope.time = 'Morning';
-            console.log($scope.time);
         }
         else if (ourTime >= 12 && ourTime < 17) {
             $scope.time = 'Afternoon';
-            console.log($scope.time);
         }
         else if (ourTime > 17) {
             $scope.time = 'Evening';
-            console.log($scope.time);
         } else {
             $scope.time = 'Welcome';
-            console.log('Welcome')
         }
-
-
-//    $scope.current_time = getTime();
 
     }
 
     getTime();
 
-
+    // Gets the specific day (0-6)
     function getToday() {
         theDate = new Date();
         today = theDate.getDay();
