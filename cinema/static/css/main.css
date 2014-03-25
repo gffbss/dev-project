@@ -1,3 +1,10 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    /*font-family: 'Lato', sans-serif;*/
+    /*font-family: 'Bubbler One', sans-serif;*/
+    /*background: radial-gradient(#eee,#444);*/
+}
+
 #navbar-brand{
     text-align:center;
     float: none;
@@ -8,17 +15,13 @@
     right:0;
     top:0;
 }
-body {
-    font-family: 'Josefin Sans', sans-serif;
-    /*font-family: 'Lato', sans-serif;*/
-    /*font-family: 'Bubbler One', sans-serif;*/
-    /*background: radial-gradient(#eee,#444);*/
 
+#mood-images {
+  height: 275px;
+  width: 275px;
 }
 
 .img-rounded {
-  height: 275px;
-  width: 275px;
   border-radius: 16px;
   -webkit-box-shadow: 3px 3px 3px #7C7C7C;
   box-shadow: 3px 3px 3px #7C7C7C;

@@ -1,7 +1,8 @@
 body {
   font-family: 'Josefin Sans', sans-serif; }
   body h1, body h2, body h3, body h4, body h5 {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: "Josefin Sans", sans-serif;
+    text-align: center;
     font-style: 18px; }
 
 #navbar-brand {
@@ -15,9 +16,11 @@ img {
 #second-home-display {
   margin-top: 35px; }
 
-.img-rounded {
+#mood-images {
   height: 275px;
-  width: 275px;
+  width: 275px; }
+
+.img-rounded {
   border-radius: 16px;
   -webkit-box-shadow: 3px 3px 3px #7C7C7C;
   box-shadow: 3px 3px 3px #7C7C7C; }

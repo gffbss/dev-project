@@ -9,7 +9,6 @@ var cinematch = angular.module('cinematch', ['ngRoute']);
 cinematch.config(['$routeProvider', '$locationProvider', function($routeProvider){
     $routeProvider.
         when('/', {templateUrl: '/static/views/moods.html', controller: IndexCtrl}).
-        when('/hover-moods', {templateUrl: '/static/views/moods-hover.html', controller: IndexCtrl}).
         when('/random', {templateUrl: '/static/views/random.html', controller: ChoiceCtrl}).
         when('/rainy-moods', {templateUrl: '/static/views/rainy_moods.html', controller: RainyCtrl}).
         when('/laugh-moods', {templateUrl: '/static/views/laugh_moods.html', controller: LaughCtrl}).

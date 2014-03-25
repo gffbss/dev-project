@@ -1,20 +1,12 @@
 
-$bubbler-font: 'Bubbler One', sans-serif;
+$josefin-font: 'Josefin Sans', sans-serif;
 
 body {
     font-family: 'Josefin Sans', sans-serif;
 
-//  font-family: $bubbler-font;
-//  background-image: linear-gradient(
-//    #ADC6FF, #62FFFC, #B182E8
-//  );
-//  background-repeat:no-repeat;
-
   h1, h2, h3, h4, h5 {
-    font-family: 'Josefin Sans', sans-serif;
-
-//      font-family: $bubbler-font;
-//      text-align: center;
+      font-family: $josefin-font;
+      text-align: center;
       font-style: 18px;
   }
 }
@@ -35,9 +27,14 @@ img {
   margin-top: 35px;
 }
 
-.img-rounded {
+
+#mood-images {
   height: 275px;
   width: 275px;
+}
+
+
+.img-rounded {
   border-radius: 16px;
   -webkit-box-shadow: 3px 3px 3px #7C7C7C;
   box-shadow: 3px 3px 3px #7C7C7C;
