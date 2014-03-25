@@ -140,9 +140,12 @@ EMAIL_USE_TLS = True
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_HOST_USER = 'sanctuarysyrup@gmail.com'
-EMAIL_HOST_PASSWORD = 'stingray4'
+EMAIL_HOST_PASSWORD = '3l$anctuary4'
 
 ACCOUNT_ACTIVATION_DAYS = 7
+
+DEFAULT_FROM_EMAIL = 'sanctuarysyrup@gmail.com'
+SERVER_EMAIL = 'sanctuarysyrup@gmail.com'
 
 
 SESSION_SERIALIZER = 'django.contrib.sessions.serializers.JSONSerializer'

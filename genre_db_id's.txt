@@ -244,5 +244,5 @@ Total movies
 1491
 =
 13,760
-I have 170 more in DB... duplicates...
+I have 170 more in DB....
 -->
