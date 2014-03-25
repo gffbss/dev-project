@@ -6,7 +6,7 @@ body {
 
   h1, h2, h3, h4, h5 {
       font-family: $josefin-font;
-      text-align: center;
+//      text-align: center;
       font-style: 18px;
   }
 }
@@ -14,7 +14,10 @@ body {
 #navbar-brand{
     text-align:center;
     float: none;
+}
 
+#choice-padding {
+  padding-top: 15px;
 }
 
 img {
