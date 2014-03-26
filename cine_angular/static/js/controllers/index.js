@@ -36,7 +36,6 @@ function IndexCtrl($scope, $http) {
         today = theDate.getDay();
         $scope.day = '';
 
-        console.log(today);
         if (today == 0) {
             $scope.day = "It's Sunday";
         }
