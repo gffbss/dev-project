@@ -38,25 +38,25 @@ function IndexCtrl($scope, $http) {
 
         console.log(today);
         if (today == 0) {
-            $scope.day = "It's Monday";
+            $scope.day = "It's Sunday";
         }
         else if (today == 1) {
-            $scope.day = "It's Tuesday";
+            $scope.day = "It's Monday";
         }
         else if (today == 2){
-            $scope.day = "It's Wednesday";
+            $scope.day = "It's Tuesday";
         }
         else if (today == 3){
-            $scope.day = "It's Thursday";
+            $scope.day = "It's Wednesday";
         }
         else if (today == 4){
-            $scope.day = "It's Friday";
+            $scope.day = "It's Thursday";
         }
         else if (today == 5){
-            $scope.day = "It's Saturday";
+            $scope.day = "It's Friday";
         }
         else if (today == 6){
-            $scope.day = "It's Sunday";
+            $scope.day = "It's Saturday";
         }
     }
 
