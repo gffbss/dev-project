@@ -247,11 +247,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="registration" />
+              <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -269,7 +265,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
+              <option name="myItemId" value="migrations" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -745,18 +741,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cine_angular/static/scss/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="249" selection-end="249" vertical-scroll-proportion="0.198939" vertical-offset="0" max-vertical-offset="754">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cine_angular/static/views/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="31" selection-start="224" selection-end="228" vertical-scroll-proportion="0.14383562" vertical-offset="0" max-vertical-offset="730" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cine_angular/static/views/sick/sick_choice_1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="5" selection-start="5" selection-end="24" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="694" />
@@ -1047,6 +1031,22 @@
     <entry file="file://$PROJECT_DIR$/cine_angular/static/views/rainy_moods.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="42" selection-start="288" selection-end="288" vertical-scroll-proportion="0.16736402" vertical-offset="0" max-vertical-offset="717">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/python/2.7.3/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/tastypie/migrations/0002_add_apikey_index.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1140">
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cinema/migrations/0002_auto__add_field_movie_poster.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="460" selection-end="460" vertical-scroll-proportion="0.020949721" vertical-offset="165" max-vertical-offset="1275">
           <folding />
         </state>
       </provider>
