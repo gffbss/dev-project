@@ -17,7 +17,7 @@ function IndexCtrl($scope, $http) {
         else if (ourTime >= 12 && ourTime < 17) {
             $scope.time = 'Afternoon';
         }
-        else if (ourTime > 17) {
+        else if (ourTime >= 17 && ourTime < 24) {
             $scope.time = 'Evening';
         } else {
             $scope.time = 'Welcome';
