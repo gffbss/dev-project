@@ -25,6 +25,9 @@ img {
   height: 250px;
   width: 250px; }
 
+#movie-icon-links {
+  display: inline; }
+
 #footer-padding {
   padding-left: 10px; }
 
