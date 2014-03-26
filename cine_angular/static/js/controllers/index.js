@@ -19,7 +19,11 @@ function IndexCtrl($scope, $http) {
         }
         else if (ourTime >= 17 && ourTime < 24) {
             $scope.time = 'Evening';
-        } else {
+        }
+        else if (ourTime >= 2 && ourTime < 5){
+            $scope.time = "and it's way too early in the morning...";
+        }
+        else {
             $scope.time = 'Welcome';
         }
 

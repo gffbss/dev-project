@@ -63,19 +63,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cinematch/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="43" selection-start="228" selection-end="233" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3180">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cine_angular/static/js/controllers/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="27" selection-start="582" selection-end="582" vertical-scroll-proportion="0.37798408" vertical-offset="0" max-vertical-offset="990">
+            <state line="23" column="27" selection-start="726" selection-end="726" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1050">
               <folding />
             </state>
           </provider>
@@ -84,7 +75,25 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cinema/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="26" selection-start="133" selection-end="133" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="840">
+            <state line="15" column="34" selection-start="520" selection-end="520" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="840">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rainy_moods.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cine_angular/static/views/rainy_moods.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="9" selection-start="965" selection-end="965" vertical-scroll-proportion="0.5230126" vertical-offset="0" max-vertical-offset="717">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activation_email.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cinema/templates/registration/activation_email.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
               <folding />
             </state>
           </provider>
@@ -147,10 +156,10 @@
         <option value="$PROJECT_DIR$/cine_angular/static/views/date_moods.html" />
         <option value="$PROJECT_DIR$/cine_angular/static/views/exploring_moods.html" />
         <option value="$PROJECT_DIR$/cine_angular/static/views/laugh_moods.html" />
-        <option value="$PROJECT_DIR$/cine_angular/static/views/rainy_moods.html" />
         <option value="$PROJECT_DIR$/cine_angular/static/views/sick_moods.html" />
         <option value="$PROJECT_DIR$/cine_angular/static/views/moods.html" />
         <option value="$PROJECT_DIR$/cine_angular/static/js/controllers/index.js" />
+        <option value="$PROJECT_DIR$/cine_angular/static/views/rainy_moods.html" />
       </list>
     </option>
   </component>
@@ -286,6 +295,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dev-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dev-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cine_angular" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="scss" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -333,8 +368,26 @@
               <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="dev-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dev-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cine_angular" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -356,29 +409,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dev-project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dev-project" />
+              <option name="myItemId" value="choices" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cine_angular" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
+              <option name="myItemId" value="rainy" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -775,27 +814,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cinema/static/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="47" selection-start="370" selection-end="370" vertical-scroll-proportion="0.32831737" vertical-offset="0" max-vertical-offset="731">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cinema/templates/registration/registration_form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="211" selection-end="211" vertical-scroll-proportion="0.2260274" vertical-offset="0" max-vertical-offset="730">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cinema/templates/registration/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cine_angular/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="47" selection-start="293" selection-end="293" vertical-scroll-proportion="0.1392573" vertical-offset="0" max-vertical-offset="754">
@@ -883,13 +901,6 @@
     <entry file="file://$PROJECT_DIR$/cine_angular/static/scss/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="0" selection-start="249" selection-end="249" vertical-scroll-proportion="0.198939" vertical-offset="0" max-vertical-offset="754">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cinema/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="26" selection-start="133" selection-end="133" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="840">
           <folding />
         </state>
       </provider>
@@ -1048,13 +1059,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cinema/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="35" selection-start="2153" selection-end="2153" vertical-scroll-proportion="-15.416667" vertical-offset="380" max-vertical-offset="1110">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cine_angular/templates/base-angular.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="81" column="35" selection-start="3304" selection-end="3304" vertical-scroll-proportion="-16.041666" vertical-offset="830" max-vertical-offset="1560">
@@ -1090,13 +1094,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cine_angular/static/views/rainy_moods.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="30" selection-start="210" selection-end="210" vertical-scroll-proportion="0.12552302" vertical-offset="0" max-vertical-offset="717">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cine_angular/static/views/sick_moods.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="30" selection-start="212" selection-end="212" vertical-scroll-proportion="0.10460251" vertical-offset="0" max-vertical-offset="717">
@@ -1111,6 +1108,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cine_angular/static/js/controllers/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="27" selection-start="726" selection-end="726" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1050">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cinema/templates/registration/activate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cinema/templates/registration/activation_email_subject.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="61" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cinematch/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="18" selection-start="890" selection-end="890" vertical-scroll-proportion="0.37362638" vertical-offset="103" max-vertical-offset="3180">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cinema/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="35" selection-start="2153" selection-end="2153" vertical-scroll-proportion="-15.416667" vertical-offset="380" max-vertical-offset="1110">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cinema/templates/registration/activation_email.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="754">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cinema/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="34" selection-start="520" selection-end="520" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="840">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cine_angular/static/views/moods.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="30" selection-start="188" selection-end="188" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="690">
@@ -1118,16 +1164,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cinematch/settings.py">
+    <entry file="file://$PROJECT_DIR$/cine_angular/static/views/rainy_moods.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="43" selection-start="228" selection-end="233" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3180">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cine_angular/static/js/controllers/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="27" selection-start="582" selection-end="582" vertical-scroll-proportion="0.37798408" vertical-offset="0" max-vertical-offset="990">
+        <state line="25" column="9" selection-start="965" selection-end="965" vertical-scroll-proportion="0.5230126" vertical-offset="0" max-vertical-offset="717">
           <folding />
         </state>
       </provider>
