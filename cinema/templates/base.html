@@ -48,7 +48,7 @@
         {% block footer %}
     <div class="container" id="footer">
         <nav class="navbar navbar-default navbar-fixed-bottom">
-            <div class="navbar-inner navbar-content-center">
+            <div id="footer-padding" class="navbar-inner navbar-content-center">
             <a href="{% url 'index' %}">{% trans "Home" %}</a> |
 
             {% if user.is_authenticated %}
