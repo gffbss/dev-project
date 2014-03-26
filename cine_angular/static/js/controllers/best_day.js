@@ -28,8 +28,8 @@ function BestDayCtrl($scope, $http) {
             });
     });
 
-    // For choice 2 ~ 13 == Indie
-    $http.get('/api/v1/movie/?genre=13&format=json&limit=999').
+    // For choice 2 ~ 27 == Indie
+    $http.get('/api/v1/movie/?genre=27&format=json&limit=999').
         success(function(adventure_movies){
             // we need to be specific with our movies.objects which will give us the specific data. If
             // if was just movies it would be the entire json object and would not be iterable

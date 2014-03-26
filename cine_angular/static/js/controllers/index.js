@@ -26,7 +26,6 @@ function IndexCtrl($scope, $http) {
         else {
             $scope.time = 'Welcome';
         }
-
     }
 
     getTime();
@@ -37,25 +36,25 @@ function IndexCtrl($scope, $http) {
         today = theDate.getDay();
         $scope.day = '';
 
-        if (today = 0) {
+        if (today == 0) {
             $scope.day = "It's Monday"
         }
-        else if (today = 1) {
+        else if (today == 1) {
             $scope.day = "It's Tuesday"
         }
-        else if (today = 2){
+        else if (today == 2){
             $scope.day = "It's Wednesday"
         }
-        else if (today = 3){
+        else if (today == 3){
             $scope.day = "It's Thursday"
         }
-        else if (today = 4){
+        else if (today == 4){
             $scope.day = "It's Friday"
         }
-        else if (today = 5){
+        else if (today == 5){
             $scope.day = "It's Saturday"
         }
-        else if (today = 6){
+        else if (today == 6){
             $scope.day = "It's Sunday"
         }
     }
