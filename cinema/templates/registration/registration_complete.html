@@ -2,5 +2,13 @@
 {% load i18n %}
 
 {% block content %}
-<p>{% trans "You are now registered. Activation email sent." %}</p>
+<h3>{% trans "You are now registered. An Activation email has been sent." %}</h3>
+    <h4>{% trans "You must active your account to login :)" %}</h4>
+    <div class="row">
+        <div class="col-sm-12">
+            <a href="/moods"> <h1>It's Popcorn Time</h1>
+              <img class="img-rounded img-responsive"src="static/img/old-theatre.jpg">
+            </a>
+        </div>
+    </div>
 {% endblock %}
