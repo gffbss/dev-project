@@ -15,12 +15,12 @@
 
 // basically a js function that we want to do stuff for us. every controller will have $scope as the initial argument
 function RainyCtrl($scope, $http) {
-    // This random function will return a randomly generated movie for the choice.html
-
-    // $http would be like a library we are calling just like python
     // the genre={{db-id}} accepts the id associated with the genre. See .txt file
 
-    // For choice 1 ~ 18 == Film Noir
+    // For multiple genre filters use genre__in={id}
+    // ex: /api/v1/movie/?genre__in=18&genre__in=4&format=json&limit=100
+
+    // For choice 2 ~ 18 == Film Noir
     $http.get('/api/v1/movie/?genre=18&format=json&limit=999').
         success(function(movies){
             // we need to be specific with our movies.objects which will give us the specific data. If
@@ -37,11 +37,10 @@ function RainyCtrl($scope, $http) {
                     // if was just movies it would be the entire json object and would not be iterable
                     $scope.movie_link = movie_link;
 
-
             });
     });
 
-    // For choice 2 ~ 19 == Fantasy
+    // For choice 1 ~ 19 == Fantasy
     $http.get('/api/v1/movie/?genre=19&format=json&limit=999').
         success(function(fantasy_movies){
             // we need to be specific with our movies.objects which will give us the specific data. If
