@@ -23,8 +23,6 @@ body {
 
 .img-rounded {
   border-radius: 16px;
-  -webkit-box-shadow: 3px 3px 3px #7C7C7C;
-  box-shadow: 3px 3px 3px #7C7C7C;
 }
 
 #container {
