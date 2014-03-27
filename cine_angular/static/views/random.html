@@ -1,4 +1,4 @@
-<div class="row">
+<div id="choice-padding" class="row">
     <div ng-show="movie">
         <div class="col-md-7">
             <img id="main-poster" class="img-rounded img-responsive" src="http://image.tmdb.org/t/p/w185/{{ movie.poster }}">
@@ -9,9 +9,11 @@
             <h4>{{ movie.year }}</h4>
             <h4>{{ movie.genre.genre_type }}</h4>
             <h2>How To Watch</h2>
-            <p><a href="http://www.amazon.com/s/ref=nb_sb_noss_1?url=search-alias%3Dinstant-video&field-keywords={{ movie.title }}" target="_blank"><img class="img-rounded" src="/static/img/amazon-instant-video.jpg"></a></p>
-            <p><a href="{{ movie_link.url }}" target="_blank"><img class="img-rounded" src="/static/img/apple-tv.jpg"></a></p>
-            <p><a href="http://search.ovguide.com/?ci=101&q={{ movie.title }}" target="_blank"><img class="img-rounded" src="/static/img/OVGuide_Logo.jpg"></a></p>
+                <div id="movie-icon-links">
+                    <a href="http://www.amazon.com/s/ref=nb_sb_noss_1?url=search-alias%3Dinstant-video&field-keywords={{ movie.title }}" target="_blank"><img id="az-icon" class="img-rounded" src="/static/webfonts/amazon_icon.png"></a>
+                    <a href="{{ movie_link.url }}" target="_blank"><i id="icon" class="ss-apple"></i></a>
+                    <a href="http://www.vudu.com/movies/#search/{{ movie.title }}" target="_blank"><img id="vudu-icon" class="img-rounded" src="/static/webfonts/ps_vudu_logo.png"></a>
+                </div>
             <a href="#/moods">You hate it? Your fault, you asked for a random flick...</a>
         </div>
     </div>
