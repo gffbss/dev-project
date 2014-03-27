@@ -2,17 +2,17 @@
 <div id="choice-padding" class="row">
     <div ng-show="fantasy_movies">
         <div class="col-md-7">
-                <img id="main-poster" class="img-thumbnail img-responsive" src="http://image.tmdb.org/t/p/w185/{{ fantasy_movie.poster }}">
+                <img id="main-poster" class="img-thumbnail img-responsive" src="http://image.tmdb.org/t/p/w185/{{ fantasy_movies.poster }}">
         </div>
         <div class="col-md-5">
-                <h1>{{ fantasy_movie.title }}</h1>
-                <h4>{{ fantasy_movie.year }}</h4>
-                <h4>{{ fantasy_movie.genre.genre_type }}</h4>
+                <h1>{{ fantasy_movies.title }}</h1>
+                <h4>{{ fantasy_movies.year }}</h4>
+                <h4>{{ fantasy_movies.genre.genre_type }}</h4>
                 <h2>How To Watch</h2>
                 <div id="movie-icon-links">
-                    <a href="http://www.amazon.com/s/ref=nb_sb_noss_1?url=search-alias%3Dinstant-video&field-keywords={{ fantasy_movie.title }}" target="_blank"><img id="az-icon" class="img-rounded" src="/static/webfonts/amazon_icon.png"></a>
+                    <a href="http://www.amazon.com/s/ref=nb_sb_noss_1?url=search-alias%3Dinstant-video&field-keywords={{ fantasy_movies.title }}" target="_blank"><img id="az-icon" class="img-rounded" src="/static/webfonts/amazon_icon.png"></a>
                     <a href="{{ fantasy_movie_link.url }}" target="_blank"><i id="icon" class="ss-apple"></i></a>
-                    <a href="http://www.vudu.com/movies/#search/{{ fantasy_movie.title }}" target="_blank"><img id="vudu-icon" class="img-rounded" src="/static/webfonts/ps_vudu_logo.png"></a>
+                    <a href="http://www.vudu.com/movies/#search/{{ fantasy_movies.title }}" target="_blank"><img id="vudu-icon" class="img-rounded" src="/static/webfonts/ps_vudu_logo.png"></a>
                 </div>
                 <h4><a href="#/moods">You hate it? So Go back...</a></h4>
         </div>
