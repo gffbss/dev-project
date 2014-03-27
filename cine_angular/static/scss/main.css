@@ -10,6 +10,9 @@ body {
 a:hover {
   text-decoration: none; }
 
+i:hover {
+  text-decoration: none; }
+
 #navbar-brand {
   text-align: center;
   float: none; }
