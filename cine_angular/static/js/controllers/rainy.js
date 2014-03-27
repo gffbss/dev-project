@@ -38,7 +38,7 @@ function RainyCtrl($scope, $http) {
             // if was just movies it would be the entire json object and would not be iterable
             $scope.fantasy_movies = fantasy_movies.objects;
 
-            $scope.fantasy_movies = $scope.fantasy_movies[Math.floor(Math.random() * $scope.fantasy_movies.length)]; //a random movie from movies
+            $scope.fantasy_movie = $scope.fantasy_movies[Math.floor(Math.random() * $scope.fantasy_movies.length)]; //a random movie from movies
 
             $http.get('/apple/?movie_title=' + $scope.fantasy_movies.title).
                 success(function(fantasy_movie_link){
@@ -57,7 +57,7 @@ function RainyCtrl($scope, $http) {
             // if was just movies it would be the entire json object and would not be iterable
             $scope.mystery_movies = mystery_movies.objects;
 
-            $scope.mystery_movies = $scope.mystery_movies[Math.floor(Math.random() * $scope.mystery_movies.length)]; //a random movie from movies
+            $scope.mystery_movie = $scope.mystery_movies[Math.floor(Math.random() * $scope.mystery_movies.length)]; //a random movie from movies
 
             $http.get('/apple/?movie_title=' + $scope.mystery_movies.title).
                 success(function(mystery_movie_link){
