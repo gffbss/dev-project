@@ -1,7 +1,7 @@
 <div id="choice-padding" class="row">
     <div ng-show="indie_movie">
         <div class="col-md-7">
-                <img id="main-poster" class="img-rounded img-responsive" src="http://image.tmdb.org/t/p/w185/{{ indie_movie.poster }}">
+                <img id="main-poster" class="img-thumbnail img-responsive" src="http://image.tmdb.org/t/p/w185/{{ indie_movie.poster }}">
         </div>
 
         <div class="col-md-5">
@@ -13,7 +13,7 @@
                 <div id="movie-icon-links">
                     <a href="http://www.amazon.com/s/ref=nb_sb_noss_1?url=search-alias%3Dinstant-video&field-keywords={{ indie_movie.title }}" target="_blank"><img id="az-icon" class="img-rounded" src="/static/webfonts/amazon_icon.png"></a>
                     <a href="{{ indie_movie_link.url }}" target="_blank"><i id="icon" class="ss-apple"></i></a>
-                    <a href="http://www.vudu.com/movies/#search/{{ indie_movie.title }}" target="_blank"><img id="vudu-icon" class="img-thumbnail" src="/static/webfonts/ps_vudu_logo.png"></a>
+                    <a href="http://www.vudu.com/movies/#search/{{ indie_movie.title }}" target="_blank"><img id="vudu-icon" class="img-rounded" src="/static/webfonts/ps_vudu_logo.png"></a>
                 </div>
                 <h4><a href="#/moods">You hate it? So Go back...</a></h4>
         </div>
