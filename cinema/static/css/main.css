@@ -22,8 +22,11 @@ body {
 }
 
 .btn-xlarge {
+    margin-left: auto;
+    margin-right: auto;
+    width: 375px;
     padding: 18px 28px;
-    font-size: 22px; //change this to your desired size
+    font-size: 24px; //change this to your desired size
     line-height: normal;
     -webkit-border-radius: 8px;
        -moz-border-radius: 8px;

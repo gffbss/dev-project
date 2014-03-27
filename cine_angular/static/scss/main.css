@@ -52,12 +52,6 @@ hr {
   background-color: #333; }
 
 #main-poster {
-  height: 350px;
-  width: 275px;
-  margin-left: auto;
-  margin-right: auto; }
-
-.img-thumbnail {
   height: 350px !important;
   width: 275px !important;
   margin-left: auto !important;
