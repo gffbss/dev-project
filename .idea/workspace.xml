@@ -45,19 +45,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="exploring_choice_2.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="exploring_choice_2.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cine_angular/static/views/explore/exploring_choice_2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="6" selection-start="1320" selection-end="1320" vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="435">
+            <state line="15" column="145" selection-start="1146" selection-end="1146" vertical-scroll-proportion="0.36466774" vertical-offset="0" max-vertical-offset="617">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cinema/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="67" selection-start="1414" selection-end="1414" vertical-scroll-proportion="0.52380955" vertical-offset="225" max-vertical-offset="855">
+            <state line="37" column="67" selection-start="1414" selection-end="1414" vertical-scroll-proportion="-13.75" vertical-offset="225" max-vertical-offset="855">
               <folding />
             </state>
           </provider>
@@ -140,8 +140,8 @@
         <option value="$PROJECT_DIR$/cine_angular/static/views/sick/sick_choice_1.html" />
         <option value="$PROJECT_DIR$/cine_angular/static/views/sick/sick_choice_3.html" />
         <option value="$PROJECT_DIR$/cine_angular/static/views/sick/sick_choice_2.html" />
-        <option value="$PROJECT_DIR$/cine_angular/static/views/explore/exploring_choice_2.html" />
         <option value="$PROJECT_DIR$/cinema/templates/index.html" />
+        <option value="$PROJECT_DIR$/cine_angular/static/views/explore/exploring_choice_2.html" />
       </list>
     </option>
   </component>
@@ -1060,16 +1060,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cine_angular/static/views/explore/exploring_choice_2.html">
+    <entry file="file://$PROJECT_DIR$/cinema/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="6" selection-start="1320" selection-end="1320" vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="435">
+        <state line="37" column="67" selection-start="1414" selection-end="1414" vertical-scroll-proportion="-13.75" vertical-offset="225" max-vertical-offset="855">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cinema/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/cine_angular/static/views/explore/exploring_choice_2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="67" selection-start="1414" selection-end="1414" vertical-scroll-proportion="0.52380955" vertical-offset="225" max-vertical-offset="855">
+        <state line="15" column="145" selection-start="1146" selection-end="1146" vertical-scroll-proportion="0.36466774" vertical-offset="0" max-vertical-offset="617">
           <folding />
         </state>
       </provider>
