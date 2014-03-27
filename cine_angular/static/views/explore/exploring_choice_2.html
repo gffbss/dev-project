@@ -8,8 +8,8 @@
                 <h1>{{ indie_movie.title }}</h1>
                 <h4>{{ indie_movie.year }}</h4>
                 <h4>{{ indie_movie.genre.genre_type }}</h4>
-                <hr>
-{#                <i id="icon" icon="ss-youtube"><a href="https://movies.yahoo.com/movie/{{ indie_movie.title }}">Here</a></i>#}
+                <hr id="hr-style">
+                <a href="https://movies.yahoo.com/movie/{{ indie_movie.title }}"><i id="icon" class="ss-youtube"></i></a>
                 <h2>How To Watch</h2>
                 <div id="movie-icon-links">
                     <a href="http://www.amazon.com/s/ref=nb_sb_noss_1?url=search-alias%3Dinstant-video&field-keywords={{ indie_movie.title }}" target="_blank"><img id="az-icon" class="img-rounded" src="/static/webfonts/amazon_icon.png"></a>
