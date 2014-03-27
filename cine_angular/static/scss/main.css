@@ -4,6 +4,9 @@ body {
     font-family: "Josefin Sans", sans-serif;
     font-style: 18px; }
 
+.container {
+  padding-top: 20px; }
+
 a:hover {
   text-decoration: none; }
 
