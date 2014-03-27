@@ -27,10 +27,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="random.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="random.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cine_angular/static/views/random.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="238" selection-end="238" vertical-scroll-proportion="0.12116317" vertical-offset="0" max-vertical-offset="619">
+            <state line="5" column="0" selection-start="238" selection-end="238" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="375">
               <folding />
             </state>
           </provider>
@@ -47,10 +47,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.scss" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cine_angular/static/scss/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="14" selection-start="332" selection-end="332" vertical-scroll-proportion="-10.0" vertical-offset="60" max-vertical-offset="1515">
+            <state line="14" column="15" selection-start="242" selection-end="242" vertical-scroll-proportion="0.23734178" vertical-offset="60" max-vertical-offset="1515">
               <folding />
             </state>
           </provider>
@@ -135,7 +135,6 @@
         <option value="$PROJECT_DIR$/cinema/static/css/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/cine_angular/templates/base-angular.html" />
         <option value="$PROJECT_DIR$/cinema/templates/base.html" />
-        <option value="$PROJECT_DIR$/cine_angular/static/scss/main.scss" />
         <option value="$PROJECT_DIR$/cine_angular/static/js/controllers/rainy.js" />
         <option value="$PROJECT_DIR$/cine_angular/static/views/rain/rain_choice_1.html" />
         <option value="$PROJECT_DIR$/cine_angular/static/views/rain/rain_choice_2.html" />
@@ -158,11 +157,11 @@
         <option value="$PROJECT_DIR$/cinema/templates/index.html" />
         <option value="$PROJECT_DIR$/cinema/static/css/main.css" />
         <option value="$PROJECT_DIR$/cine_angular/static/views/random.html" />
+        <option value="$PROJECT_DIR$/cine_angular/static/scss/main.scss" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="38" />
     <option name="y" value="22" />
     <option name="width" value="1402" />
     <option name="height" value="774" />
@@ -666,7 +665,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="38" y="22" width="1402" height="774" extended-state="0" />
+    <frame x="0" y="22" width="1402" height="774" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -865,13 +864,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cine_angular/static/scss/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="14" selection-start="332" selection-end="332" vertical-scroll-proportion="-10.0" vertical-offset="60" max-vertical-offset="1515">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cinematch/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="48" selection-start="1053" selection-end="1053" vertical-scroll-proportion="-18.0" vertical-offset="0" max-vertical-offset="915">
@@ -1063,7 +1055,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cine_angular/static/views/random.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="238" selection-end="238" vertical-scroll-proportion="0.12116317" vertical-offset="0" max-vertical-offset="619">
+        <state line="5" column="0" selection-start="238" selection-end="238" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cine_angular/static/scss/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="15" selection-start="242" selection-end="242" vertical-scroll-proportion="0.23734178" vertical-offset="60" max-vertical-offset="1515">
           <folding />
         </state>
       </provider>
