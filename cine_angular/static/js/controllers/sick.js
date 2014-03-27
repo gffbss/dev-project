@@ -10,7 +10,7 @@ function SickCtrl($scope, $http) {
     // the genre={{db-id}} accepts the id associated with the genre. See .txt file
 
     // For choice 1 ~ 10 ==  Mystery
-    $http.get('/api/v1/movie/?genre=10&format=json&limit=40').
+    $http.get('/api/v1/movie/?genre=10&format=json&limit=75').
         success(function(movies){
             // we need to be specific with our movies.objects which will give us the specific data. If
             // if was just movies it would be the entire json object and would not be iterable
@@ -29,7 +29,7 @@ function SickCtrl($scope, $http) {
     });
 
     // For choice 2 ~ 6 == SCI FI
-    $http.get('/api/v1/movie/?genre=6&format=json&limit=40').
+    $http.get('/api/v1/movie/?genre=6&format=json&limit=75').
         success(function(scifi_movies){
             // we need to be specific with our movies.objects which will give us the specific data. If
             // if was just movies it would be the entire json object and would not be iterable
@@ -47,7 +47,7 @@ function SickCtrl($scope, $http) {
     });
 
     // For choice 3 ~ 2 == War Movies
-    $http.get('/api/v1/movie/?genre=2&format=json&limit=40').
+    $http.get('/api/v1/movie/?genre=2&format=json&limit=75').
         success(function(war_movies){
             // we need to be specific with our movies.objects which will give us the specific data. If
             // if was just movies it would be the entire json object and would not be iterable

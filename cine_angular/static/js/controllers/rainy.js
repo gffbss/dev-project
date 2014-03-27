@@ -11,7 +11,7 @@ function RainyCtrl($scope, $http) {
     // ex: /api/v1/movie/?genre__in=18&genre__in=4&format=json&limit=100
 
     // For choice 2 ~ 18 == Film Noir
-    $http.get('/api/v1/movie/?genre=18&format=json&limit=40').
+    $http.get('/api/v1/movie/?genre=18&format=json&limit=75').
         success(function(movies){
             // we need to be specific with our movies.objects which will give us the specific data. If
             // if was just movies it would be the entire json object and would not be iterable
@@ -30,7 +30,7 @@ function RainyCtrl($scope, $http) {
     });
 
     // For choice 1 ~ 19 == Fantasy
-    $http.get('/api/v1/movie/?genre=19&format=json&limit=40').
+    $http.get('/api/v1/movie/?genre=19&format=json&limit=75').
         success(function(fantasy_movies){
             // we need to be specific with our movies.objects which will give us the specific data. If
             // if was just movies it would be the entire json object and would not be iterable
@@ -49,7 +49,7 @@ function RainyCtrl($scope, $http) {
     });
 
     // For choice 3 ~ 10 == Mystery
-    $http.get('/api/v1/movie/?genre=10&format=json&limit=40').
+    $http.get('/api/v1/movie/?genre=10&format=json&limit=75').
         success(function(mystery_movies){
             // we need to be specific with our movies.objects which will give us the specific data. If
             // if was just movies it would be the entire json object and would not be iterable

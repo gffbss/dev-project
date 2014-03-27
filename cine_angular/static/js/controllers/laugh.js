@@ -10,7 +10,7 @@ function LaughCtrl($scope, $http) {
     // the genre={{db-id}} accepts the id associated with the genre. See .txt file
 
     // For choice 1 ~ 7 ==  Romance
-    $http.get('/api/v1/movie/?genre=7&format=json&limit=40').
+    $http.get('/api/v1/movie/?genre=7&format=json&limit=75').
         success(function(movies){
             // we need to be specific with our movies.objects which will give us the specific data. If
             // if was just movies it would be the entire json object and would not be iterable
@@ -29,7 +29,7 @@ function LaughCtrl($scope, $http) {
     });
 
     // For choice 2 ~ 25 == Comedy
-    $http.get('/api/v1/movie/?genre=25&format=json&limit=40').
+    $http.get('/api/v1/movie/?genre=25&format=json&limit=75').
         success(function(comedy_movies){
             // we need to be specific with our movies.objects which will give us the specific data. If
             // if was just movies it would be the entire json object and would not be iterable
@@ -47,7 +47,7 @@ function LaughCtrl($scope, $http) {
     });
 
     // For choice 3 ~ 14 == Holiday
-    $http.get('/api/v1/movie/?genre=14&format=json&limit=40').
+    $http.get('/api/v1/movie/?genre=14&format=json&limit=75').
         success(function(holiday_movies){
             // we need to be specific with our movies.objects which will give us the specific data. If
             // if was just movies it would be the entire json object and would not be iterable

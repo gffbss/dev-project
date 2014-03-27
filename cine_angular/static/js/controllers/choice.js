@@ -7,7 +7,7 @@ function ChoiceCtrl($scope, $http) {
     // $http would be like a library we are calling just like python
     // the genre={{db-id}} accepts the id associated with the genre. See .txt file
     // Careful with the limit feature here... Should be adjusted once we get genres displaying
-    $http.get('/api/v1/movie/?format=json&limit=999').
+    $http.get('/api/v1/movie/?format=json&limit=500').
         success(function(movies){
             // we need to be specific with our movies.objects which will give us the specific data. If
             // if was just movies it would be the entire json object and would not be iterable
