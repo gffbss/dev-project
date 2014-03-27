@@ -2,16 +2,6 @@
  * Created by geoffreyboss on 3/13/14.
  */
 
-//function GetAppleLink($scope, $http, argument) {
-//    $http.get('/apple/?movie_title=' + argument).
-//        success(function(movie_link){
-//            // we need to be specific with our movies.objects which will give us the specific data. If
-//            // if was just movies it would be the entire json object and would not be iterable
-//            $scope.movie_link = movie_link;
-//            console.log(movie_link);
-//
-//            });
-//}
 
 // basically a js function that we want to do stuff for us. every controller will have $scope as the initial argument
 function RainyCtrl($scope, $http) {
@@ -36,6 +26,7 @@ function RainyCtrl($scope, $http) {
                     // we need to be specific with our movies.objects which will give us the specific data. If
                     // if was just movies it would be the entire json object and would not be iterable
                     $scope.movie_link = movie_link;
+                    console.log($scope.movie_link)
 
             });
     });
