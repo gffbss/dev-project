@@ -57,6 +57,12 @@ hr {
   margin-left: auto;
   margin-right: auto; }
 
+.img-thumbnail {
+  height: 350px !important;
+  width: 275px !important;
+  margin-left: auto !important;
+  margin-right: auto !important; }
+
 #mood-main {
   text-align: center; }
 
