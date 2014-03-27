@@ -33,6 +33,14 @@ body {
             border-radius: 8px;
 }
 
+#home-btns {
+    text-align: center;
+}
+
+#home-padding {
+    padding-top: 95px;
+}
+
 .img-rounded {
   border-radius: 16px;
 }

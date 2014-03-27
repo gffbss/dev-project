@@ -2,18 +2,18 @@
 {% extends "base.html" %}
 
 {% block content %}
-<div class="container">
+<div id="home-padding" class="container">
     {% if user.is_authenticated %}
         <h1>Welcome back, {{ user.first_name  }}</h1>
 
         <div class="row">
-            <div class="col-sm-6">
+            <div id="home-btns" class="col-sm-6">
                 <a href="moods"> <h1>It's Popcorn Time</h1>
                 <img class="img-rounded img-responsive"src="static/img/old-theatre.jpg">
                 </a>
             </div>
     {# Allow the user to choose one completely random movie from the db#}
-            <div class="col-sm-6">
+            <div id="home-btns" class="col-sm-6">
                <a href="moods/#/random"> <h1>Get Lucky</h1>
                <img class="img-rounded img-responsive" src="static/img/old-fashion.jpg">
                </a>
@@ -26,14 +26,14 @@
         <h4>Click to get started.</h4>
 
          <div class="row">
-            <div class="col-sm-6">
-                <a href="moods"> <h1 class="btn btn-default btn-xlarge">Get A Movie</h1>
+            <div  id="home-btns" class="col-sm-6">
+                <a href="moods"> <h1 id="container" class="btn btn-default btn-xlarge" style="background-color: rgb(220, 260, 240)">Get A Movie</h1>
 {#                <img class="img-rounded img-responsive" src="static/img/old-theatre.jpg">#}
                 </a>
             </div>
 
     {# Allow the user to choose one completely random movie from the db#}
-            <div class="col-sm-6">
+            <div id="home-btns" class="col-sm-6">
                <a href="moods/#/random"> <h1 class="btn btn-default btn-xlarge">Shuffle</h1>
 {#               <img class="img-rounded img-responsive" src="static/img/old-fashion.jpg">#}
                </a>
