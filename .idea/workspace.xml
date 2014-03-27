@@ -67,14 +67,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cinema/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="149" selection-start="1209" selection-end="1209" vertical-scroll-proportion="0.53958" vertical-offset="101" max-vertical-offset="795">
+            <state line="33" column="21" selection-start="1352" selection-end="1358" vertical-scroll-proportion="-13.291667" vertical-offset="176" max-vertical-offset="795">
               <folding>
                 <element signature="n#style#0;n#i#0;n#h1#0;n#a#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#i#0;n#h1#0;n#a#0;n#div#2;n#div#1;n#div#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cinema/static/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="9" selection-start="259" selection-end="259" vertical-scroll-proportion="0.27439025" vertical-offset="0" max-vertical-offset="2160">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -116,7 +125,6 @@
         <option value="$PROJECT_DIR$/cine_angular/static/css/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/cine_angular/static/css/main.css" />
         <option value="$PROJECT_DIR$/cinema/static/css/bootstrap.min.css" />
-        <option value="$PROJECT_DIR$/cinema/static/css/main.css" />
         <option value="$PROJECT_DIR$/cine_angular/templates/base-angular.html" />
         <option value="$PROJECT_DIR$/cinema/templates/base.html" />
         <option value="$PROJECT_DIR$/cine_angular/static/scss/main.scss" />
@@ -140,6 +148,7 @@
         <option value="$PROJECT_DIR$/cine_angular/static/views/best/bestday_choice_2.html" />
         <option value="$PROJECT_DIR$/cine_angular/static/views/best/bestday_choice_3.html" />
         <option value="$PROJECT_DIR$/cinema/templates/index.html" />
+        <option value="$PROJECT_DIR$/cinema/static/css/main.css" />
       </list>
     </option>
   </component>
@@ -222,6 +231,46 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dev-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dev-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cinema" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dev-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dev-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cinema" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -804,13 +853,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cinema/static/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="0" selection-start="676" selection-end="676" vertical-scroll-proportion="0.8003049" vertical-offset="0" max-vertical-offset="2085">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cine_angular/static/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="0" selection-start="447" selection-end="447" vertical-scroll-proportion="0.2515244" vertical-offset="0" max-vertical-offset="945">
@@ -1006,11 +1048,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cinema/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="149" selection-start="1209" selection-end="1209" vertical-scroll-proportion="0.53958" vertical-offset="101" max-vertical-offset="795">
+        <state line="33" column="21" selection-start="1352" selection-end="1358" vertical-scroll-proportion="-13.291667" vertical-offset="176" max-vertical-offset="795">
           <folding>
             <element signature="n#style#0;n#i#0;n#h1#0;n#a#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#i#0;n#h1#0;n#a#0;n#div#2;n#div#1;n#div#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cinema/static/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="9" selection-start="259" selection-end="259" vertical-scroll-proportion="0.27439025" vertical-offset="0" max-vertical-offset="2160">
+          <folding />
         </state>
       </provider>
     </entry>

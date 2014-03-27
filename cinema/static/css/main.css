@@ -16,6 +16,11 @@ body {
     top:0;
 }
 
+#or-nav{
+    text-align: center;
+    font-size: 35px;
+}
+
 #mood-images {
   height: 275px;
   width: 275px;
