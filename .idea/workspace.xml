@@ -74,21 +74,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cinema/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="131" selection-start="1179" selection-end="1179" vertical-scroll-proportion="0.48465267" vertical-offset="135" max-vertical-offset="840">
-              <folding>
-                <element signature="n#style#0;n#h1#0;n#a#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="33" column="0" selection-start="1271" selection-end="1271" vertical-scroll-proportion="-13.833333" vertical-offset="163" max-vertical-offset="795">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cinema/static/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="1" selection-start="722" selection-end="722" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="2055">
+            <state line="33" column="34" selection-start="673" selection-end="673" vertical-scroll-proportion="0.48018292" vertical-offset="180" max-vertical-offset="2145">
               <folding />
             </state>
           </provider>
@@ -153,8 +151,8 @@
         <option value="$PROJECT_DIR$/cine_angular/templates/base-angular.html" />
         <option value="$PROJECT_DIR$/cinema/static/css/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/cine_angular/static/views/explore/exploring_choice_2.html" />
-        <option value="$PROJECT_DIR$/cinema/static/css/main.css" />
         <option value="$PROJECT_DIR$/cinema/templates/index.html" />
+        <option value="$PROJECT_DIR$/cinema/static/css/main.css" />
       </list>
     </option>
   </component>
@@ -989,13 +987,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cinema/static/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="1" selection-start="722" selection-end="722" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="2055">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cinema/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="6" selection-start="924" selection-end="983" vertical-scroll-proportion="-6.9583335" vertical-offset="163" max-vertical-offset="855">
@@ -1007,10 +998,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cinema/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="131" selection-start="1179" selection-end="1179" vertical-scroll-proportion="0.48465267" vertical-offset="135" max-vertical-offset="840">
-          <folding>
-            <element signature="n#style#0;n#h1#0;n#a#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="33" column="0" selection-start="1271" selection-end="1271" vertical-scroll-proportion="-13.833333" vertical-offset="163" max-vertical-offset="795">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cinema/static/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="34" selection-start="673" selection-end="673" vertical-scroll-proportion="0.48018292" vertical-offset="180" max-vertical-offset="2145">
+          <folding />
         </state>
       </provider>
     </entry>
