@@ -10,7 +10,7 @@ function BestDayCtrl($scope, $http) {
     // the genre={{db-id}} accepts the id associated with the genre. See .txt file
 
     // For choice 1 ~ 11 ==  Musical
-    $http.get('/api/v1/movie/?genre=11&format=json&limit=999').
+    $http.get('/api/v1/movie/?genre=11&format=json&limit=40').
         success(function(movies){
             // we need to be specific with our movies.objects which will give us the specific data. If
             // if was just movies it would be the entire json object and would not be iterable
@@ -29,7 +29,7 @@ function BestDayCtrl($scope, $http) {
     });
 
     // For choice 2 ~ 27 == Indie
-    $http.get('/api/v1/movie/?genre=27&format=json&limit=999').
+    $http.get('/api/v1/movie/?genre=27&format=json&limit=40').
         success(function(adventure_movies){
             // we need to be specific with our movies.objects which will give us the specific data. If
             // if was just movies it would be the entire json object and would not be iterable
@@ -47,7 +47,7 @@ function BestDayCtrl($scope, $http) {
     });
 
     // For choice 3 ~ 8 == Road Movies
-    $http.get('/api/v1/movie/?genre=8&format=json&limit=999').
+    $http.get('/api/v1/movie/?genre=8&format=json&limit=40').
         success(function(road_movies){
             // we need to be specific with our movies.objects which will give us the specific data. If
             // if was just movies it would be the entire json object and would not be iterable

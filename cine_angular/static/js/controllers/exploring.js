@@ -8,7 +8,7 @@ function ExploringCtrl($scope, $http) {
     // the genre={{db-id}} accepts the id associated with the genre. See .txt file
 
     // For choice 1 ~ 17 ==  Foreign
-    $http.get('/api/v1/movie/?genre=17&format=json&limit=999').
+    $http.get('/api/v1/movie/?genre=17&format=json&limit=40').
         success(function(movies){
             // we need to be specific with our movies.objects which will give us the specific data. If
             // if was just movies it would be the entire json object and would not be iterable
@@ -27,7 +27,7 @@ function ExploringCtrl($scope, $http) {
     });
 
     // For choice 2 ~ 13 == Indie
-    $http.get('/api/v1/movie/?genre=13&format=json&limit=999').
+    $http.get('/api/v1/movie/?genre=13&format=json&limit=40').
         success(function(indie_movies){
             // we need to be specific with our movies.objects which will give us the specific data. If
             // if was just movies it would be the entire json object and would not be iterable
@@ -45,7 +45,7 @@ function ExploringCtrl($scope, $http) {
     });
 
     // For choice 3 ~ 1 == Western
-    $http.get('/api/v1/movie/?genre=1&format=json&limit=999').
+    $http.get('/api/v1/movie/?genre=1&format=json&limit=40').
         success(function(western_movies){
             // we need to be specific with our movies.objects which will give us the specific data. If
             // if was just movies it would be the entire json object and would not be iterable
