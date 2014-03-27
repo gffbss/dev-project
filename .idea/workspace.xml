@@ -48,7 +48,7 @@
       <file leaf-file-name="exploring_choice_2.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cine_angular/static/views/explore/exploring_choice_2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="16" selection-start="1331" selection-end="1331" vertical-scroll-proportion="0.479798" vertical-offset="0" max-vertical-offset="594">
+            <state line="19" column="0" selection-start="1315" selection-end="1315" vertical-scroll-proportion="0.479798" vertical-offset="0" max-vertical-offset="594">
               <folding />
             </state>
           </provider>
@@ -57,7 +57,7 @@
       <file leaf-file-name="main.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cine_angular/static/scss/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="0" selection-start="742" selection-end="742" vertical-scroll-proportion="-9.166667" vertical-offset="725" max-vertical-offset="1350">
+            <state line="65" column="2" selection-start="747" selection-end="747" vertical-scroll-proportion="-11.041667" vertical-offset="710" max-vertical-offset="1395">
               <folding />
             </state>
           </provider>
@@ -1102,14 +1102,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cine_angular/static/scss/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="0" selection-start="742" selection-end="742" vertical-scroll-proportion="-9.166667" vertical-offset="725" max-vertical-offset="1350">
+        <state line="65" column="2" selection-start="747" selection-end="747" vertical-scroll-proportion="-11.041667" vertical-offset="710" max-vertical-offset="1395">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cine_angular/static/views/explore/exploring_choice_2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="16" selection-start="1331" selection-end="1331" vertical-scroll-proportion="0.479798" vertical-offset="0" max-vertical-offset="594">
+        <state line="19" column="0" selection-start="1315" selection-end="1315" vertical-scroll-proportion="0.479798" vertical-offset="0" max-vertical-offset="594">
           <folding />
         </state>
       </provider>

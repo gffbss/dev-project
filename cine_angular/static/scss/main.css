@@ -44,6 +44,9 @@ img {
 .img-rounded {
   border-radius: 16px; }
 
+hr {
+  color: black; }
+
 #main-poster {
   height: 350px;
   width: 275px;
