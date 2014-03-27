@@ -26,8 +26,6 @@ function RainyCtrl($scope, $http) {
                     // we need to be specific with our movies.objects which will give us the specific data. If
                     // if was just movies it would be the entire json object and would not be iterable
                     $scope.movie_link = movie_link;
-                    console.log($scope.movie_link)
-
             });
     });
 

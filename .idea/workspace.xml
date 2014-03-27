@@ -38,42 +38,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rainy.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cine_angular/static/js/controllers/rainy.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="34" selection-start="1794" selection-end="1794" vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="1155">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rain_choice_1.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cine_angular/static/views/rain/rain_choice_1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="30" selection-start="273" selection-end="273" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="420">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rain_choice_2.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cine_angular/static/views/rain/rain_choice_2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="62" selection-start="457" selection-end="457" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="420">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rain_choice_3.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cine_angular/static/views/rain/rain_choice_3.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="37" selection-start="328" selection-end="328" vertical-scroll-proportion="0.15100671" vertical-offset="0" max-vertical-offset="596">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="main.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cine_angular/static/scss/main.scss">
           <provider selected="true" editor-type-id="text-editor">
@@ -94,10 +58,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cine_angular/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="23" selection-start="245" selection-end="245" vertical-scroll-proportion="-3.6" vertical-offset="0" max-vertical-offset="420">
+            <state line="10" column="23" selection-start="245" selection-end="245" vertical-scroll-proportion="0.14263074" vertical-offset="0" max-vertical-offset="631">
               <folding />
             </state>
           </provider>
@@ -153,26 +117,26 @@
         <option value="$PROJECT_DIR$/cine_angular/templates/base-angular.html" />
         <option value="$PROJECT_DIR$/cinema/templates/base.html" />
         <option value="$PROJECT_DIR$/cinema/templates/index.html" />
-        <option value="$PROJECT_DIR$/cine_angular/static/views/explore/exploring_choice_3.html" />
+        <option value="$PROJECT_DIR$/cine_angular/static/scss/main.scss" />
+        <option value="$PROJECT_DIR$/cine_angular/static/js/controllers/rainy.js" />
+        <option value="$PROJECT_DIR$/cine_angular/static/views/rain/rain_choice_1.html" />
+        <option value="$PROJECT_DIR$/cine_angular/static/views/rain/rain_choice_2.html" />
+        <option value="$PROJECT_DIR$/cine_angular/static/views/rain/rain_choice_3.html" />
+        <option value="$PROJECT_DIR$/cine_angular/static/views/sick/sick_choice_1.html" />
+        <option value="$PROJECT_DIR$/cine_angular/static/views/sick/sick_choice_2.html" />
+        <option value="$PROJECT_DIR$/cine_angular/static/views/sick/sick_choice_3.html" />
+        <option value="$PROJECT_DIR$/cine_angular/static/views/laugh/laugh_choice_1.html" />
+        <option value="$PROJECT_DIR$/cine_angular/static/views/laugh/laugh_choice_2.html" />
+        <option value="$PROJECT_DIR$/cine_angular/static/views/laugh/laugh_choice_3.html" />
         <option value="$PROJECT_DIR$/cine_angular/static/views/explore/exploring_choice_1.html" />
         <option value="$PROJECT_DIR$/cine_angular/static/views/explore/exploring_choice_2.html" />
+        <option value="$PROJECT_DIR$/cine_angular/static/views/explore/exploring_choice_3.html" />
         <option value="$PROJECT_DIR$/cine_angular/static/views/date/date_choice_1.html" />
         <option value="$PROJECT_DIR$/cine_angular/static/views/date/date_choice_2.html" />
         <option value="$PROJECT_DIR$/cine_angular/static/views/date/date_choice_3.html" />
         <option value="$PROJECT_DIR$/cine_angular/static/views/best/bestday_choice_1.html" />
         <option value="$PROJECT_DIR$/cine_angular/static/views/best/bestday_choice_2.html" />
-        <option value="$PROJECT_DIR$/cine_angular/static/views/laugh/laugh_choice_1.html" />
-        <option value="$PROJECT_DIR$/cine_angular/static/views/laugh/laugh_choice_2.html" />
-        <option value="$PROJECT_DIR$/cine_angular/static/views/laugh/laugh_choice_3.html" />
-        <option value="$PROJECT_DIR$/cine_angular/static/views/rain/rain_choice_1.html" />
-        <option value="$PROJECT_DIR$/cine_angular/static/views/sick/sick_choice_1.html" />
-        <option value="$PROJECT_DIR$/cine_angular/static/views/sick/sick_choice_2.html" />
-        <option value="$PROJECT_DIR$/cine_angular/static/views/sick/sick_choice_3.html" />
-        <option value="$PROJECT_DIR$/cine_angular/static/scss/main.scss" />
         <option value="$PROJECT_DIR$/cine_angular/static/views/best/bestday_choice_3.html" />
-        <option value="$PROJECT_DIR$/cine_angular/static/js/controllers/rainy.js" />
-        <option value="$PROJECT_DIR$/cine_angular/static/views/rain/rain_choice_2.html" />
-        <option value="$PROJECT_DIR$/cine_angular/static/views/rain/rain_choice_3.html" />
       </list>
     </option>
   </component>
@@ -316,7 +280,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="rain" />
+              <option name="myItemId" value="best" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -886,20 +850,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cinema/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="18" selection-start="1304" selection-end="1304" vertical-scroll-proportion="-14.375" vertical-offset="135" max-vertical-offset="795">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cine_angular/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="23" selection-start="245" selection-end="245" vertical-scroll-proportion="-3.6" vertical-offset="0" max-vertical-offset="420">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cine_angular/static/js/controllers/sick.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1080">
@@ -907,114 +857,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cine_angular/static/views/sick/sick_choice_2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="254" selection-end="254" vertical-scroll-proportion="0.12116317" vertical-offset="0" max-vertical-offset="619">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cine_angular/static/views/sick/sick_choice_1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="242" selection-end="242" vertical-scroll-proportion="0.12116317" vertical-offset="0" max-vertical-offset="619">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cine_angular/static/views/sick/sick_choice_3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="30" selection-start="281" selection-end="281" vertical-scroll-proportion="0.1453958" vertical-offset="0" max-vertical-offset="619">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cine_angular/static/views/laugh/laugh_choice_3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="50" selection-start="340" selection-end="340" vertical-scroll-proportion="0.17617449" vertical-offset="0" max-vertical-offset="596">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cine_angular/static/views/laugh/laugh_choice_2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="256" selection-end="256" vertical-scroll-proportion="0.12583892" vertical-offset="0" max-vertical-offset="596">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cine_angular/static/views/laugh/laugh_choice_1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="14" selection-start="241" selection-end="241" vertical-scroll-proportion="0.09693053" vertical-offset="0" max-vertical-offset="619">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cine_angular/static/scss/main.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="14" selection-start="332" selection-end="332" vertical-scroll-proportion="-10.0" vertical-offset="60" max-vertical-offset="1515">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cine_angular/static/views/explore/exploring_choice_1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="58" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0726979" vertical-offset="0" max-vertical-offset="619">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cine_angular/static/views/explore/exploring_choice_2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="47" selection-start="382" selection-end="382" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="450">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cine_angular/static/views/explore/exploring_choice_3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="14" selection-start="257" selection-end="257" vertical-scroll-proportion="0.10067114" vertical-offset="0" max-vertical-offset="596">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cine_angular/static/views/date/date_choice_3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="30" selection-start="285" selection-end="285" vertical-scroll-proportion="0.15100671" vertical-offset="0" max-vertical-offset="596">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cine_angular/static/views/date/date_choice_2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="30" selection-start="287" selection-end="287" vertical-scroll-proportion="0.1453958" vertical-offset="0" max-vertical-offset="619">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cine_angular/static/views/date/date_choice_1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="58" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0726979" vertical-offset="0" max-vertical-offset="619">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cine_angular/static/views/best/bestday_choice_2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="262" selection-end="262" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="420">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cine_angular/static/views/best/bestday_choice_1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="14" selection-start="241" selection-end="241" vertical-scroll-proportion="0.10067114" vertical-offset="0" max-vertical-offset="596">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cine_angular/static/views/best/bestday_choice_3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="126" selection-start="646" selection-end="646" vertical-scroll-proportion="0.2907916" vertical-offset="0" max-vertical-offset="619">
           <folding />
         </state>
       </provider>
@@ -1035,6 +880,83 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cine_angular/static/js/controllers/rainy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="51" selection-start="1342" selection-end="1342" vertical-scroll-proportion="0.6532258" vertical-offset="0" max-vertical-offset="1125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cine_angular/static/views/rain/rain_choice_1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="20" selection-start="433" selection-end="447" vertical-scroll-proportion="0.25167784" vertical-offset="0" max-vertical-offset="596">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cine_angular/static/views/rain/rain_choice_3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="39" selection-start="496" selection-end="496" vertical-scroll-proportion="0.2180937" vertical-offset="0" max-vertical-offset="619">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cine_angular/static/views/rain/rain_choice_2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="34" selection-start="492" selection-end="492" vertical-scroll-proportion="0.24232633" vertical-offset="0" max-vertical-offset="619">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cine_angular/static/views/sick/sick_choice_1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="34" selection-start="447" selection-end="447" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="420">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cine_angular/static/views/sick/sick_choice_3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="39" selection-start="472" selection-end="472" vertical-scroll-proportion="0.24232633" vertical-offset="0" max-vertical-offset="619">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cine_angular/static/views/sick/sick_choice_2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="34" selection-start="477" selection-end="477" vertical-scroll-proportion="0.24232633" vertical-offset="0" max-vertical-offset="619">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cine_angular/static/views/laugh/laugh_choice_2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="34" selection-start="482" selection-end="482" vertical-scroll-proportion="0.24232633" vertical-offset="0" max-vertical-offset="619">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cine_angular/static/views/laugh/laugh_choice_3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="1216" selection-end="1216" vertical-scroll-proportion="0.48465267" vertical-offset="0" max-vertical-offset="619">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cine_angular/static/views/laugh/laugh_choice_1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="34" selection-start="447" selection-end="447" vertical-scroll-proportion="0.24232633" vertical-offset="0" max-vertical-offset="619">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cine_angular/static/views/explore/exploring_choice_1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="16" selection-start="430" selection-end="430" vertical-scroll-proportion="0.26655897" vertical-offset="0" max-vertical-offset="619">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cinema/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="27" selection-start="627" selection-end="627" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="855">
@@ -1044,30 +966,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cine_angular/static/js/controllers/rainy.js">
+    <entry file="file://$PROJECT_DIR$/cine_angular/static/views/explore/exploring_choice_2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="34" selection-start="1794" selection-end="1794" vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="1155">
+        <state line="6" column="30" selection-start="285" selection-end="285" vertical-scroll-proportion="0.1453958" vertical-offset="0" max-vertical-offset="619">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cine_angular/static/views/rain/rain_choice_1.html">
+    <entry file="file://$PROJECT_DIR$/cinema/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="30" selection-start="273" selection-end="273" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="420">
+        <state line="32" column="18" selection-start="1304" selection-end="1304" vertical-scroll-proportion="-14.375" vertical-offset="135" max-vertical-offset="795">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cine_angular/static/views/rain/rain_choice_2.html">
+    <entry file="file://$PROJECT_DIR$/cine_angular/static/views/explore/exploring_choice_3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="62" selection-start="457" selection-end="457" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="420">
+        <state line="11" column="16" selection-start="470" selection-end="470" vertical-scroll-proportion="0.26655897" vertical-offset="0" max-vertical-offset="619">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cine_angular/static/views/rain/rain_choice_3.html">
+    <entry file="file://$PROJECT_DIR$/cine_angular/static/views/date/date_choice_1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="37" selection-start="328" selection-end="328" vertical-scroll-proportion="0.15100671" vertical-offset="0" max-vertical-offset="596">
+        <state line="9" column="51" selection-start="410" selection-end="410" vertical-scroll-proportion="0.2180937" vertical-offset="0" max-vertical-offset="619">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cine_angular/static/views/date/date_choice_3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="39" selection-start="482" selection-end="482" vertical-scroll-proportion="0.24232633" vertical-offset="0" max-vertical-offset="619">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cine_angular/static/views/date/date_choice_2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="34" selection-start="482" selection-end="482" vertical-scroll-proportion="0.24232633" vertical-offset="0" max-vertical-offset="619">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cine_angular/static/views/best/bestday_choice_1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="45" selection-start="404" selection-end="404" vertical-scroll-proportion="0.2180937" vertical-offset="0" max-vertical-offset="619">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cine_angular/static/views/best/bestday_choice_2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="1232" selection-end="1232" vertical-scroll-proportion="0.48465267" vertical-offset="0" max-vertical-offset="619">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cine_angular/static/views/best/bestday_choice_3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="1192" selection-end="1192" vertical-scroll-proportion="0.48465267" vertical-offset="0" max-vertical-offset="619">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cine_angular/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="23" selection-start="245" selection-end="245" vertical-scroll-proportion="0.14263074" vertical-offset="0" max-vertical-offset="631">
           <folding />
         </state>
       </provider>
