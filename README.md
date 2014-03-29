@@ -1,4 +1,4 @@
-dev-project
+Cine
 ===========
 
-Build out of a concierge service. More info to follow with official launch. You will likey.
+A movie recommendation concierge service. We help you find a movie to watch, it's simple and easy and there is no debate necessary.

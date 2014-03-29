@@ -74,10 +74,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="date.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="date.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cine_angular/static/js/controllers/date.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="60" selection-start="2416" selection-end="2416" vertical-scroll-proportion="0.45731708" vertical-offset="435" max-vertical-offset="1095">
+            <state line="54" column="0" selection-start="2714" selection-end="2714" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1095">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="2" selection-start="20" selection-end="20" vertical-scroll-proportion="0.07154213" vertical-offset="0" max-vertical-offset="629">
               <folding />
             </state>
           </provider>
@@ -102,7 +111,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/cine_angular/static/scss/main.css" />
         <option value="$PROJECT_DIR$/cine_angular/static/js/app.js" />
         <option value="$PROJECT_DIR$/cine_angular/static/js/controllers/index.js" />
@@ -153,6 +161,7 @@
         <option value="$PROJECT_DIR$/cine_angular/static/js/controllers/choice.js" />
         <option value="$PROJECT_DIR$/cine_angular/static/views/random.html" />
         <option value="$PROJECT_DIR$/cine_angular/static/js/controllers/date.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -760,11 +769,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cine_angular/static/views/rainy_moods.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="6" selection-start="893" selection-end="893" vertical-scroll-proportion="0.48117155" vertical-offset="0" max-vertical-offset="717" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cine_angular/static/views/laugh_moods.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="16" selection-start="223" selection-end="223" vertical-scroll-proportion="0.12552302" vertical-offset="0" max-vertical-offset="717" />
@@ -1052,7 +1056,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cine_angular/static/js/controllers/date.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="60" selection-start="2416" selection-end="2416" vertical-scroll-proportion="0.45731708" vertical-offset="435" max-vertical-offset="1095">
+        <state line="54" column="0" selection-start="2714" selection-end="2714" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1095">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="2" selection-start="20" selection-end="20" vertical-scroll-proportion="0.07154213" vertical-offset="0" max-vertical-offset="629">
           <folding />
         </state>
       </provider>
