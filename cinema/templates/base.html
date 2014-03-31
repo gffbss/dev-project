@@ -18,6 +18,22 @@
     <script src="https://code.jquery.com/jquery.js"></script>
     <script src="{% static 'js/fade.js' %}"></script>
     <script src="{% static 'js/main.js' %}"></script>
+
+{# Analytics #}
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-48036718-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
 </head>
 
 <body id="container" style="background-color: rgb(220, 260, 240)">
@@ -47,5 +63,4 @@
     </div>
 
 </body>
-
 </html>
