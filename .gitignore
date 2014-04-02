@@ -1,2 +1,12 @@
 *.pyc
 staticfiles
+
+# pycharm
+.idea
+
+# vim
+*.swp
+
+# Mac OS X
+.DS_Store
+._*
