@@ -47,7 +47,7 @@ class RatingResource(ModelResource):
         resource_name = "class"
         authorization = Authorization()
         filtering = {
-            'students': ALL_WITH_RELATIONS,
+            'users': ALL_WITH_RELATIONS,
             'title': ['contains', 'icontains'],
             'start_date': ['gt',]
         }
