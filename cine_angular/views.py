@@ -15,6 +15,7 @@ def get_apple_link(request):
     movie_title = request.GET.get('movie_title')
     resp = requests.get("https://itunes.apple.com/search?term={0}&entity=movie".format(movie_title))
     apple_movie_link = resp.json()
+    # Have to limit the response to the first value
     grab_data = apple_movie_link['results'][0]
     url = grab_data['trackViewUrl']
 
